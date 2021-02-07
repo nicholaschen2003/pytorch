@@ -1,0 +1,1579 @@
+cuda:0
+[INFO] Done importing packages.
+[INFO] Loading Traning and Test Datasets.
+[INFO] Done loading data.
+Network: Net(
+  (conv1): Conv2d(3, 15, kernel_size=(3, 3), stride=(1, 1))
+  (pool1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(15, 75, kernel_size=(3, 3), stride=(1, 1))
+  (pool2): MaxPool2d(kernel_size=3, stride=3, padding=1, dilation=1, ceil_mode=False)
+  (conv3): Conv2d(75, 375, kernel_size=(3, 3), stride=(1, 1))
+  (pool3): MaxPool2d(kernel_size=3, stride=3, padding=0, dilation=1, ceil_mode=False)
+  (batchNormalization15): BatchNorm2d(15, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (fc1): Linear(in_features=375, out_features=120, bias=True)
+  (fc2): Linear(in_features=120, out_features=84, bias=True)
+  (fc3): Linear(in_features=84, out_features=10, bias=True)
+)
+[TIMER] Process Time so far: 3.1875 seconds
+Beginning Epoch 1...
+Epoch: 1, Mini-Batches Processed:   500, Loss: 0.56615
+Epoch: 1, Mini-Batches Processed:  1000, Loss: 0.52822
+Epoch: 1, Mini-Batches Processed:  1500, Loss: 0.4975
+Epoch: 1, Mini-Batches Processed:  2000, Loss: 0.47311
+Epoch: 1, Mini-Batches Processed:  2500, Loss: 0.45128
+Epoch: 1, Mini-Batches Processed:  3000, Loss: 0.44519
+Epoch: 1, Mini-Batches Processed:  3500, Loss: 0.41842
+Epoch: 1, Mini-Batches Processed:  4000, Loss: 0.41923
+Epoch: 1, Mini-Batches Processed:  4500, Loss: 0.40253
+Epoch: 1, Mini-Batches Processed:  5000, Loss: 0.39019
+Epoch: 1, Mini-Batches Processed:  5500, Loss: 0.37834
+Epoch: 1, Mini-Batches Processed:  6000, Loss: 0.38723
+Epoch: 1, Mini-Batches Processed:  6500, Loss: 0.37003
+Epoch: 1, Mini-Batches Processed:  7000, Loss: 0.37484
+Epoch: 1, Mini-Batches Processed:  7500, Loss: 0.36107
+Epoch: 1, Mini-Batches Processed:  8000, Loss: 0.36228
+Epoch: 1, Mini-Batches Processed:  8500, Loss: 0.3493
+Epoch: 1, Mini-Batches Processed:  9000, Loss: 0.34829
+Epoch: 1, Mini-Batches Processed:  9500, Loss: 0.33208
+Epoch: 1, Mini-Batches Processed: 10000, Loss: 0.33335
+Epoch: 1, Mini-Batches Processed: 10500, Loss: 0.33586
+Epoch: 1, Mini-Batches Processed: 11000, Loss: 0.33216
+Epoch: 1, Mini-Batches Processed: 11500, Loss: 0.32
+Epoch: 1, Mini-Batches Processed: 12000, Loss: 0.32259
+Epoch: 1, Mini-Batches Processed: 12500, Loss: 0.31944
+[TIMER] Process Time so far: 61.0781 seconds
+Starting validation...
+[TRAINING] 28598 out of 50000
+[VALIDATION] 5540 out of 10000
+[TIMER] Process Time so far: 87.5312 seconds
+Beginning Epoch 2...
+Epoch: 2, Mini-Batches Processed:   500, Loss: 0.31319
+Epoch: 2, Mini-Batches Processed:  1000, Loss: 0.29114
+Epoch: 2, Mini-Batches Processed:  1500, Loss: 0.28336
+Epoch: 2, Mini-Batches Processed:  2000, Loss: 0.2995
+Epoch: 2, Mini-Batches Processed:  2500, Loss: 0.2996
+Epoch: 2, Mini-Batches Processed:  3000, Loss: 0.29549
+Epoch: 2, Mini-Batches Processed:  3500, Loss: 0.28802
+Epoch: 2, Mini-Batches Processed:  4000, Loss: 0.28928
+Epoch: 2, Mini-Batches Processed:  4500, Loss: 0.29251
+Epoch: 2, Mini-Batches Processed:  5000, Loss: 0.27128
+Epoch: 2, Mini-Batches Processed:  5500, Loss: 0.26509
+Epoch: 2, Mini-Batches Processed:  6000, Loss: 0.28408
+Epoch: 2, Mini-Batches Processed:  6500, Loss: 0.27155
+Epoch: 2, Mini-Batches Processed:  7000, Loss: 0.27425
+Epoch: 2, Mini-Batches Processed:  7500, Loss: 0.26543
+Epoch: 2, Mini-Batches Processed:  8000, Loss: 0.26918
+Epoch: 2, Mini-Batches Processed:  8500, Loss: 0.26746
+Epoch: 2, Mini-Batches Processed:  9000, Loss: 0.2614
+Epoch: 2, Mini-Batches Processed:  9500, Loss: 0.25343
+Epoch: 2, Mini-Batches Processed: 10000, Loss: 0.25704
+Epoch: 2, Mini-Batches Processed: 10500, Loss: 0.25548
+Epoch: 2, Mini-Batches Processed: 11000, Loss: 0.2677
+Epoch: 2, Mini-Batches Processed: 11500, Loss: 0.25249
+Epoch: 2, Mini-Batches Processed: 12000, Loss: 0.24981
+Epoch: 2, Mini-Batches Processed: 12500, Loss: 0.25112
+[TIMER] Process Time so far: 147.453 seconds
+Starting validation...
+[TRAINING] 35390 out of 50000
+[VALIDATION] 6714 out of 10000
+[TIMER] Process Time so far: 174.875 seconds
+Beginning Epoch 3...
+Epoch: 3, Mini-Batches Processed:   500, Loss: 0.2339
+Epoch: 3, Mini-Batches Processed:  1000, Loss: 0.23122
+Epoch: 3, Mini-Batches Processed:  1500, Loss: 0.22371
+Epoch: 3, Mini-Batches Processed:  2000, Loss: 0.22808
+Epoch: 3, Mini-Batches Processed:  2500, Loss: 0.21904
+Epoch: 3, Mini-Batches Processed:  3000, Loss: 0.22674
+Epoch: 3, Mini-Batches Processed:  3500, Loss: 0.23065
+Epoch: 3, Mini-Batches Processed:  4000, Loss: 0.23158
+Epoch: 3, Mini-Batches Processed:  4500, Loss: 0.22651
+Epoch: 3, Mini-Batches Processed:  5000, Loss: 0.21892
+Epoch: 3, Mini-Batches Processed:  5500, Loss: 0.21887
+Epoch: 3, Mini-Batches Processed:  6000, Loss: 0.22353
+Epoch: 3, Mini-Batches Processed:  6500, Loss: 0.22041
+Epoch: 3, Mini-Batches Processed:  7000, Loss: 0.22507
+Epoch: 3, Mini-Batches Processed:  7500, Loss: 0.21562
+Epoch: 3, Mini-Batches Processed:  8000, Loss: 0.22885
+Epoch: 3, Mini-Batches Processed:  8500, Loss: 0.23859
+Epoch: 3, Mini-Batches Processed:  9000, Loss: 0.22349
+Epoch: 3, Mini-Batches Processed:  9500, Loss: 0.21526
+Epoch: 3, Mini-Batches Processed: 10000, Loss: 0.21567
+Epoch: 3, Mini-Batches Processed: 10500, Loss: 0.21688
+Epoch: 3, Mini-Batches Processed: 11000, Loss: 0.21424
+Epoch: 3, Mini-Batches Processed: 11500, Loss: 0.21741
+Epoch: 3, Mini-Batches Processed: 12000, Loss: 0.22025
+Epoch: 3, Mini-Batches Processed: 12500, Loss: 0.20806
+[TIMER] Process Time so far: 234.0 seconds
+Starting validation...
+[TRAINING] 37818 out of 50000
+[VALIDATION] 7089 out of 10000
+[TIMER] Process Time so far: 260.109 seconds
+Beginning Epoch 4...
+Epoch: 4, Mini-Batches Processed:   500, Loss: 0.19613
+Epoch: 4, Mini-Batches Processed:  1000, Loss: 0.19266
+Epoch: 4, Mini-Batches Processed:  1500, Loss: 0.18379
+Epoch: 4, Mini-Batches Processed:  2000, Loss: 0.1838
+Epoch: 4, Mini-Batches Processed:  2500, Loss: 0.18974
+Epoch: 4, Mini-Batches Processed:  3000, Loss: 0.18701
+Epoch: 4, Mini-Batches Processed:  3500, Loss: 0.18604
+Epoch: 4, Mini-Batches Processed:  4000, Loss: 0.19107
+Epoch: 4, Mini-Batches Processed:  4500, Loss: 0.18398
+Epoch: 4, Mini-Batches Processed:  5000, Loss: 0.19913
+Epoch: 4, Mini-Batches Processed:  5500, Loss: 0.18955
+Epoch: 4, Mini-Batches Processed:  6000, Loss: 0.20008
+Epoch: 4, Mini-Batches Processed:  6500, Loss: 0.17784
+Epoch: 4, Mini-Batches Processed:  7000, Loss: 0.18972
+Epoch: 4, Mini-Batches Processed:  7500, Loss: 0.19972
+Epoch: 4, Mini-Batches Processed:  8000, Loss: 0.19133
+Epoch: 4, Mini-Batches Processed:  8500, Loss: 0.1881
+Epoch: 4, Mini-Batches Processed:  9000, Loss: 0.19024
+Epoch: 4, Mini-Batches Processed:  9500, Loss: 0.18869
+Epoch: 4, Mini-Batches Processed: 10000, Loss: 0.19253
+Epoch: 4, Mini-Batches Processed: 10500, Loss: 0.1803
+Epoch: 4, Mini-Batches Processed: 11000, Loss: 0.19019
+Epoch: 4, Mini-Batches Processed: 11500, Loss: 0.18341
+Epoch: 4, Mini-Batches Processed: 12000, Loss: 0.18305
+Epoch: 4, Mini-Batches Processed: 12500, Loss: 0.19545
+[TIMER] Process Time so far: 315.656 seconds
+Starting validation...
+[TRAINING] 39567 out of 50000
+[VALIDATION] 7251 out of 10000
+[TIMER] Process Time so far: 341.656 seconds
+Beginning Epoch 5...
+Epoch: 5, Mini-Batches Processed:   500, Loss: 0.16193
+Epoch: 5, Mini-Batches Processed:  1000, Loss: 0.16684
+Epoch: 5, Mini-Batches Processed:  1500, Loss: 0.16136
+Epoch: 5, Mini-Batches Processed:  2000, Loss: 0.17361
+Epoch: 5, Mini-Batches Processed:  2500, Loss: 0.16382
+Epoch: 5, Mini-Batches Processed:  3000, Loss: 0.16909
+Epoch: 5, Mini-Batches Processed:  3500, Loss: 0.15881
+Epoch: 5, Mini-Batches Processed:  4000, Loss: 0.16724
+Epoch: 5, Mini-Batches Processed:  4500, Loss: 0.15857
+Epoch: 5, Mini-Batches Processed:  5000, Loss: 0.16741
+Epoch: 5, Mini-Batches Processed:  5500, Loss: 0.16782
+Epoch: 5, Mini-Batches Processed:  6000, Loss: 0.16322
+Epoch: 5, Mini-Batches Processed:  6500, Loss: 0.16315
+Epoch: 5, Mini-Batches Processed:  7000, Loss: 0.16865
+Epoch: 5, Mini-Batches Processed:  7500, Loss: 0.16186
+Epoch: 5, Mini-Batches Processed:  8000, Loss: 0.16997
+Epoch: 5, Mini-Batches Processed:  8500, Loss: 0.16215
+Epoch: 5, Mini-Batches Processed:  9000, Loss: 0.15489
+Epoch: 5, Mini-Batches Processed:  9500, Loss: 0.17264
+Epoch: 5, Mini-Batches Processed: 10000, Loss: 0.15873
+Epoch: 5, Mini-Batches Processed: 10500, Loss: 0.16575
+Epoch: 5, Mini-Batches Processed: 11000, Loss: 0.17381
+Epoch: 5, Mini-Batches Processed: 11500, Loss: 0.16918
+Epoch: 5, Mini-Batches Processed: 12000, Loss: 0.15771
+Epoch: 5, Mini-Batches Processed: 12500, Loss: 0.16942
+[TIMER] Process Time so far: 397.938 seconds
+Starting validation...
+[TRAINING] 41514 out of 50000
+[VALIDATION] 7349 out of 10000
+[TIMER] Process Time so far: 423.734 seconds
+Beginning Epoch 6...
+Epoch: 6, Mini-Batches Processed:   500, Loss: 0.13718
+Epoch: 6, Mini-Batches Processed:  1000, Loss: 0.13007
+Epoch: 6, Mini-Batches Processed:  1500, Loss: 0.14138
+Epoch: 6, Mini-Batches Processed:  2000, Loss: 0.13782
+Epoch: 6, Mini-Batches Processed:  2500, Loss: 0.13313
+Epoch: 6, Mini-Batches Processed:  3000, Loss: 0.13777
+Epoch: 6, Mini-Batches Processed:  3500, Loss: 0.13671
+Epoch: 6, Mini-Batches Processed:  4000, Loss: 0.1382
+Epoch: 6, Mini-Batches Processed:  4500, Loss: 0.13802
+Epoch: 6, Mini-Batches Processed:  5000, Loss: 0.13968
+Epoch: 6, Mini-Batches Processed:  5500, Loss: 0.14397
+Epoch: 6, Mini-Batches Processed:  6000, Loss: 0.14265
+Epoch: 6, Mini-Batches Processed:  6500, Loss: 0.14652
+Epoch: 6, Mini-Batches Processed:  7000, Loss: 0.15451
+Epoch: 6, Mini-Batches Processed:  7500, Loss: 0.14221
+Epoch: 6, Mini-Batches Processed:  8000, Loss: 0.14748
+Epoch: 6, Mini-Batches Processed:  8500, Loss: 0.15082
+Epoch: 6, Mini-Batches Processed:  9000, Loss: 0.13762
+Epoch: 6, Mini-Batches Processed:  9500, Loss: 0.15342
+Epoch: 6, Mini-Batches Processed: 10000, Loss: 0.14982
+Epoch: 6, Mini-Batches Processed: 10500, Loss: 0.14699
+Epoch: 6, Mini-Batches Processed: 11000, Loss: 0.15551
+Epoch: 6, Mini-Batches Processed: 11500, Loss: 0.15261
+Epoch: 6, Mini-Batches Processed: 12000, Loss: 0.15202
+Epoch: 6, Mini-Batches Processed: 12500, Loss: 0.14571
+[TIMER] Process Time so far: 478.25 seconds
+Starting validation...
+[TRAINING] 41647 out of 50000
+[VALIDATION] 7240 out of 10000
+[TIMER] Process Time so far: 504.266 seconds
+Beginning Epoch 7...
+Epoch: 7, Mini-Batches Processed:   500, Loss: 0.11231
+Epoch: 7, Mini-Batches Processed:  1000, Loss: 0.11457
+Epoch: 7, Mini-Batches Processed:  1500, Loss: 0.11555
+Epoch: 7, Mini-Batches Processed:  2000, Loss: 0.12215
+Epoch: 7, Mini-Batches Processed:  2500, Loss: 0.12071
+Epoch: 7, Mini-Batches Processed:  3000, Loss: 0.11715
+Epoch: 7, Mini-Batches Processed:  3500, Loss: 0.12423
+Epoch: 7, Mini-Batches Processed:  4000, Loss: 0.13806
+Epoch: 7, Mini-Batches Processed:  4500, Loss: 0.11727
+Epoch: 7, Mini-Batches Processed:  5000, Loss: 0.12994
+Epoch: 7, Mini-Batches Processed:  5500, Loss: 0.12672
+Epoch: 7, Mini-Batches Processed:  6000, Loss: 0.12907
+Epoch: 7, Mini-Batches Processed:  6500, Loss: 0.12316
+Epoch: 7, Mini-Batches Processed:  7000, Loss: 0.13191
+Epoch: 7, Mini-Batches Processed:  7500, Loss: 0.13189
+Epoch: 7, Mini-Batches Processed:  8000, Loss: 0.12953
+Epoch: 7, Mini-Batches Processed:  8500, Loss: 0.12561
+Epoch: 7, Mini-Batches Processed:  9000, Loss: 0.1333
+Epoch: 7, Mini-Batches Processed:  9500, Loss: 0.13465
+Epoch: 7, Mini-Batches Processed: 10000, Loss: 0.13777
+Epoch: 7, Mini-Batches Processed: 10500, Loss: 0.12748
+Epoch: 7, Mini-Batches Processed: 11000, Loss: 0.12893
+Epoch: 7, Mini-Batches Processed: 11500, Loss: 0.13035
+Epoch: 7, Mini-Batches Processed: 12000, Loss: 0.12785
+Epoch: 7, Mini-Batches Processed: 12500, Loss: 0.1306
+[TIMER] Process Time so far: 558.922 seconds
+Starting validation...
+[TRAINING] 43346 out of 50000
+[VALIDATION] 7302 out of 10000
+[TIMER] Process Time so far: 584.828 seconds
+Beginning Epoch 8...
+Epoch: 8, Mini-Batches Processed:   500, Loss: 0.099048
+Epoch: 8, Mini-Batches Processed:  1000, Loss: 0.10774
+Epoch: 8, Mini-Batches Processed:  1500, Loss: 0.1064
+Epoch: 8, Mini-Batches Processed:  2000, Loss: 0.10388
+Epoch: 8, Mini-Batches Processed:  2500, Loss: 0.099182
+Epoch: 8, Mini-Batches Processed:  3000, Loss: 0.10384
+Epoch: 8, Mini-Batches Processed:  3500, Loss: 0.10674
+Epoch: 8, Mini-Batches Processed:  4000, Loss: 0.11119
+Epoch: 8, Mini-Batches Processed:  4500, Loss: 0.10348
+Epoch: 8, Mini-Batches Processed:  5000, Loss: 0.1094
+Epoch: 8, Mini-Batches Processed:  5500, Loss: 0.115
+Epoch: 8, Mini-Batches Processed:  6000, Loss: 0.10175
+Epoch: 8, Mini-Batches Processed:  6500, Loss: 0.11559
+Epoch: 8, Mini-Batches Processed:  7000, Loss: 0.12145
+Epoch: 8, Mini-Batches Processed:  7500, Loss: 0.10956
+Epoch: 8, Mini-Batches Processed:  8000, Loss: 0.12186
+Epoch: 8, Mini-Batches Processed:  8500, Loss: 0.11369
+Epoch: 8, Mini-Batches Processed:  9000, Loss: 0.11833
+Epoch: 8, Mini-Batches Processed:  9500, Loss: 0.1123
+Epoch: 8, Mini-Batches Processed: 10000, Loss: 0.11596
+Epoch: 8, Mini-Batches Processed: 10500, Loss: 0.11783
+Epoch: 8, Mini-Batches Processed: 11000, Loss: 0.12292
+Epoch: 8, Mini-Batches Processed: 11500, Loss: 0.12064
+Epoch: 8, Mini-Batches Processed: 12000, Loss: 0.11633
+Epoch: 8, Mini-Batches Processed: 12500, Loss: 0.1234
+[TIMER] Process Time so far: 640.359 seconds
+Starting validation...
+[TRAINING] 44337 out of 50000
+[VALIDATION] 7388 out of 10000
+[TIMER] Process Time so far: 668.609 seconds
+Beginning Epoch 9...
+Epoch: 9, Mini-Batches Processed:   500, Loss: 0.084085
+Epoch: 9, Mini-Batches Processed:  1000, Loss: 0.090571
+Epoch: 9, Mini-Batches Processed:  1500, Loss: 0.08271
+Epoch: 9, Mini-Batches Processed:  2000, Loss: 0.087179
+Epoch: 9, Mini-Batches Processed:  2500, Loss: 0.10571
+Epoch: 9, Mini-Batches Processed:  3000, Loss: 0.095032
+Epoch: 9, Mini-Batches Processed:  3500, Loss: 0.097437
+Epoch: 9, Mini-Batches Processed:  4000, Loss: 0.087902
+Epoch: 9, Mini-Batches Processed:  4500, Loss: 0.10184
+Epoch: 9, Mini-Batches Processed:  5000, Loss: 0.094021
+Epoch: 9, Mini-Batches Processed:  5500, Loss: 0.10063
+Epoch: 9, Mini-Batches Processed:  6000, Loss: 0.10007
+Epoch: 9, Mini-Batches Processed:  6500, Loss: 0.11158
+Epoch: 9, Mini-Batches Processed:  7000, Loss: 0.10017
+Epoch: 9, Mini-Batches Processed:  7500, Loss: 0.093905
+Epoch: 9, Mini-Batches Processed:  8000, Loss: 0.098617
+Epoch: 9, Mini-Batches Processed:  8500, Loss: 0.098532
+Epoch: 9, Mini-Batches Processed:  9000, Loss: 0.10522
+Epoch: 9, Mini-Batches Processed:  9500, Loss: 0.10508
+Epoch: 9, Mini-Batches Processed: 10000, Loss: 0.1062
+Epoch: 9, Mini-Batches Processed: 10500, Loss: 0.10515
+Epoch: 9, Mini-Batches Processed: 11000, Loss: 0.10802
+Epoch: 9, Mini-Batches Processed: 11500, Loss: 0.11579
+Epoch: 9, Mini-Batches Processed: 12000, Loss: 0.111
+Epoch: 9, Mini-Batches Processed: 12500, Loss: 0.11202
+[TIMER] Process Time so far: 725.328 seconds
+Starting validation...
+[TRAINING] 44187 out of 50000
+[VALIDATION] 7232 out of 10000
+[TIMER] Process Time so far: 751.594 seconds
+Beginning Epoch 10...
+Epoch: 10, Mini-Batches Processed:   500, Loss: 0.078141
+Epoch: 10, Mini-Batches Processed:  1000, Loss: 0.075898
+Epoch: 10, Mini-Batches Processed:  1500, Loss: 0.083834
+Epoch: 10, Mini-Batches Processed:  2000, Loss: 0.073767
+Epoch: 10, Mini-Batches Processed:  2500, Loss: 0.07545
+Epoch: 10, Mini-Batches Processed:  3000, Loss: 0.088304
+Epoch: 10, Mini-Batches Processed:  3500, Loss: 0.08075
+Epoch: 10, Mini-Batches Processed:  4000, Loss: 0.081457
+Epoch: 10, Mini-Batches Processed:  4500, Loss: 0.086706
+Epoch: 10, Mini-Batches Processed:  5000, Loss: 0.080206
+Epoch: 10, Mini-Batches Processed:  5500, Loss: 0.083505
+Epoch: 10, Mini-Batches Processed:  6000, Loss: 0.097147
+Epoch: 10, Mini-Batches Processed:  6500, Loss: 0.081086
+Epoch: 10, Mini-Batches Processed:  7000, Loss: 0.089503
+Epoch: 10, Mini-Batches Processed:  7500, Loss: 0.091
+Epoch: 10, Mini-Batches Processed:  8000, Loss: 0.096681
+Epoch: 10, Mini-Batches Processed:  8500, Loss: 0.097229
+Epoch: 10, Mini-Batches Processed:  9000, Loss: 0.096328
+Epoch: 10, Mini-Batches Processed:  9500, Loss: 0.087352
+Epoch: 10, Mini-Batches Processed: 10000, Loss: 0.095883
+Epoch: 10, Mini-Batches Processed: 10500, Loss: 0.087639
+Epoch: 10, Mini-Batches Processed: 11000, Loss: 0.10452
+Epoch: 10, Mini-Batches Processed: 11500, Loss: 0.096684
+Epoch: 10, Mini-Batches Processed: 12000, Loss: 0.092979
+Epoch: 10, Mini-Batches Processed: 12500, Loss: 0.088623
+[TIMER] Process Time so far: 806.844 seconds
+Starting validation...
+[TRAINING] 45976 out of 50000
+[VALIDATION] 7410 out of 10000
+[TIMER] Process Time so far: 832.375 seconds
+Beginning Epoch 11...
+Epoch: 11, Mini-Batches Processed:   500, Loss: 0.061514
+Epoch: 11, Mini-Batches Processed:  1000, Loss: 0.073926
+Epoch: 11, Mini-Batches Processed:  1500, Loss: 0.066559
+Epoch: 11, Mini-Batches Processed:  2000, Loss: 0.07359
+Epoch: 11, Mini-Batches Processed:  2500, Loss: 0.068234
+Epoch: 11, Mini-Batches Processed:  3000, Loss: 0.063416
+Epoch: 11, Mini-Batches Processed:  3500, Loss: 0.080012
+Epoch: 11, Mini-Batches Processed:  4000, Loss: 0.073817
+Epoch: 11, Mini-Batches Processed:  4500, Loss: 0.080813
+Epoch: 11, Mini-Batches Processed:  5000, Loss: 0.073583
+Epoch: 11, Mini-Batches Processed:  5500, Loss: 0.080414
+Epoch: 11, Mini-Batches Processed:  6000, Loss: 0.083531
+Epoch: 11, Mini-Batches Processed:  6500, Loss: 0.083916
+Epoch: 11, Mini-Batches Processed:  7000, Loss: 0.077075
+Epoch: 11, Mini-Batches Processed:  7500, Loss: 0.090504
+Epoch: 11, Mini-Batches Processed:  8000, Loss: 0.087582
+Epoch: 11, Mini-Batches Processed:  8500, Loss: 0.079848
+Epoch: 11, Mini-Batches Processed:  9000, Loss: 0.078931
+Epoch: 11, Mini-Batches Processed:  9500, Loss: 0.087312
+Epoch: 11, Mini-Batches Processed: 10000, Loss: 0.08484
+Epoch: 11, Mini-Batches Processed: 10500, Loss: 0.0805
+Epoch: 11, Mini-Batches Processed: 11000, Loss: 0.087246
+Epoch: 11, Mini-Batches Processed: 11500, Loss: 0.082652
+Epoch: 11, Mini-Batches Processed: 12000, Loss: 0.089867
+Epoch: 11, Mini-Batches Processed: 12500, Loss: 0.087477
+[TIMER] Process Time so far: 886.578 seconds
+Starting validation...
+[TRAINING] 45558 out of 50000
+[VALIDATION] 7304 out of 10000
+[TIMER] Process Time so far: 912.516 seconds
+Beginning Epoch 12...
+Epoch: 12, Mini-Batches Processed:   500, Loss: 0.056926
+Epoch: 12, Mini-Batches Processed:  1000, Loss: 0.065971
+Epoch: 12, Mini-Batches Processed:  1500, Loss: 0.062607
+Epoch: 12, Mini-Batches Processed:  2000, Loss: 0.063053
+Epoch: 12, Mini-Batches Processed:  2500, Loss: 0.065466
+Epoch: 12, Mini-Batches Processed:  3000, Loss: 0.067861
+Epoch: 12, Mini-Batches Processed:  3500, Loss: 0.067866
+Epoch: 12, Mini-Batches Processed:  4000, Loss: 0.071884
+Epoch: 12, Mini-Batches Processed:  4500, Loss: 0.0718
+Epoch: 12, Mini-Batches Processed:  5000, Loss: 0.073948
+Epoch: 12, Mini-Batches Processed:  5500, Loss: 0.070033
+Epoch: 12, Mini-Batches Processed:  6000, Loss: 0.068236
+Epoch: 12, Mini-Batches Processed:  6500, Loss: 0.06819
+Epoch: 12, Mini-Batches Processed:  7000, Loss: 0.07751
+Epoch: 12, Mini-Batches Processed:  7500, Loss: 0.068444
+Epoch: 12, Mini-Batches Processed:  8000, Loss: 0.077178
+Epoch: 12, Mini-Batches Processed:  8500, Loss: 0.078965
+Epoch: 12, Mini-Batches Processed:  9000, Loss: 0.084173
+Epoch: 12, Mini-Batches Processed:  9500, Loss: 0.089235
+Epoch: 12, Mini-Batches Processed: 10000, Loss: 0.08008
+Epoch: 12, Mini-Batches Processed: 10500, Loss: 0.07628
+Epoch: 12, Mini-Batches Processed: 11000, Loss: 0.08071
+Epoch: 12, Mini-Batches Processed: 11500, Loss: 0.078984
+Epoch: 12, Mini-Batches Processed: 12000, Loss: 0.074711
+Epoch: 12, Mini-Batches Processed: 12500, Loss: 0.074206
+[TIMER] Process Time so far: 967.25 seconds
+Starting validation...
+[TRAINING] 46445 out of 50000
+[VALIDATION] 7325 out of 10000
+[TIMER] Process Time so far: 992.922 seconds
+Beginning Epoch 13...
+Epoch: 13, Mini-Batches Processed:   500, Loss: 0.054977
+Epoch: 13, Mini-Batches Processed:  1000, Loss: 0.058855
+Epoch: 13, Mini-Batches Processed:  1500, Loss: 0.055934
+Epoch: 13, Mini-Batches Processed:  2000, Loss: 0.056044
+Epoch: 13, Mini-Batches Processed:  2500, Loss: 0.063569
+Epoch: 13, Mini-Batches Processed:  3000, Loss: 0.055157
+Epoch: 13, Mini-Batches Processed:  3500, Loss: 0.06529
+Epoch: 13, Mini-Batches Processed:  4000, Loss: 0.069286
+Epoch: 13, Mini-Batches Processed:  4500, Loss: 0.064369
+Epoch: 13, Mini-Batches Processed:  5000, Loss: 0.055572
+Epoch: 13, Mini-Batches Processed:  5500, Loss: 0.067537
+Epoch: 13, Mini-Batches Processed:  6000, Loss: 0.073009
+Epoch: 13, Mini-Batches Processed:  6500, Loss: 0.064857
+Epoch: 13, Mini-Batches Processed:  7000, Loss: 0.056487
+Epoch: 13, Mini-Batches Processed:  7500, Loss: 0.065617
+Epoch: 13, Mini-Batches Processed:  8000, Loss: 0.06552
+Epoch: 13, Mini-Batches Processed:  8500, Loss: 0.069743
+Epoch: 13, Mini-Batches Processed:  9000, Loss: 0.074633
+Epoch: 13, Mini-Batches Processed:  9500, Loss: 0.065486
+Epoch: 13, Mini-Batches Processed: 10000, Loss: 0.066664
+Epoch: 13, Mini-Batches Processed: 10500, Loss: 0.072317
+Epoch: 13, Mini-Batches Processed: 11000, Loss: 0.068872
+Epoch: 13, Mini-Batches Processed: 11500, Loss: 0.058212
+Epoch: 13, Mini-Batches Processed: 12000, Loss: 0.068397
+Epoch: 13, Mini-Batches Processed: 12500, Loss: 0.071453
+[TIMER] Process Time so far: 1047.22 seconds
+Starting validation...
+[TRAINING] 46637 out of 50000
+[VALIDATION] 7388 out of 10000
+[TIMER] Process Time so far: 1072.81 seconds
+Beginning Epoch 14...
+Epoch: 14, Mini-Batches Processed:   500, Loss: 0.050912
+Epoch: 14, Mini-Batches Processed:  1000, Loss: 0.047214
+Epoch: 14, Mini-Batches Processed:  1500, Loss: 0.045362
+Epoch: 14, Mini-Batches Processed:  2000, Loss: 0.047498
+Epoch: 14, Mini-Batches Processed:  2500, Loss: 0.05218
+Epoch: 14, Mini-Batches Processed:  3000, Loss: 0.041967
+Epoch: 14, Mini-Batches Processed:  3500, Loss: 0.049325
+Epoch: 14, Mini-Batches Processed:  4000, Loss: 0.068015
+Epoch: 14, Mini-Batches Processed:  4500, Loss: 0.058335
+Epoch: 14, Mini-Batches Processed:  5000, Loss: 0.052196
+Epoch: 14, Mini-Batches Processed:  5500, Loss: 0.07217
+Epoch: 14, Mini-Batches Processed:  6000, Loss: 0.057807
+Epoch: 14, Mini-Batches Processed:  6500, Loss: 0.056397
+Epoch: 14, Mini-Batches Processed:  7000, Loss: 0.060054
+Epoch: 14, Mini-Batches Processed:  7500, Loss: 0.052953
+Epoch: 14, Mini-Batches Processed:  8000, Loss: 0.060581
+Epoch: 14, Mini-Batches Processed:  8500, Loss: 0.054732
+Epoch: 14, Mini-Batches Processed:  9000, Loss: 0.057122
+Epoch: 14, Mini-Batches Processed:  9500, Loss: 0.057347
+Epoch: 14, Mini-Batches Processed: 10000, Loss: 0.055724
+Epoch: 14, Mini-Batches Processed: 10500, Loss: 0.067507
+Epoch: 14, Mini-Batches Processed: 11000, Loss: 0.062041
+Epoch: 14, Mini-Batches Processed: 11500, Loss: 0.065613
+Epoch: 14, Mini-Batches Processed: 12000, Loss: 0.072104
+Epoch: 14, Mini-Batches Processed: 12500, Loss: 0.069157
+[TIMER] Process Time so far: 1128.27 seconds
+Starting validation...
+[TRAINING] 47113 out of 50000
+[VALIDATION] 7349 out of 10000
+[TIMER] Process Time so far: 1154.36 seconds
+Beginning Epoch 15...
+Epoch: 15, Mini-Batches Processed:   500, Loss: 0.035773
+Epoch: 15, Mini-Batches Processed:  1000, Loss: 0.042673
+Epoch: 15, Mini-Batches Processed:  1500, Loss: 0.048313
+Epoch: 15, Mini-Batches Processed:  2000, Loss: 0.044942
+Epoch: 15, Mini-Batches Processed:  2500, Loss: 0.050526
+Epoch: 15, Mini-Batches Processed:  3000, Loss: 0.049748
+Epoch: 15, Mini-Batches Processed:  3500, Loss: 0.054334
+Epoch: 15, Mini-Batches Processed:  4000, Loss: 0.045101
+Epoch: 15, Mini-Batches Processed:  4500, Loss: 0.054719
+Epoch: 15, Mini-Batches Processed:  5000, Loss: 0.051342
+Epoch: 15, Mini-Batches Processed:  5500, Loss: 0.055008
+Epoch: 15, Mini-Batches Processed:  6000, Loss: 0.049054
+Epoch: 15, Mini-Batches Processed:  6500, Loss: 0.060793
+Epoch: 15, Mini-Batches Processed:  7000, Loss: 0.048611
+Epoch: 15, Mini-Batches Processed:  7500, Loss: 0.058367
+Epoch: 15, Mini-Batches Processed:  8000, Loss: 0.05723
+Epoch: 15, Mini-Batches Processed:  8500, Loss: 0.049773
+Epoch: 15, Mini-Batches Processed:  9000, Loss: 0.072134
+Epoch: 15, Mini-Batches Processed:  9500, Loss: 0.052779
+Epoch: 15, Mini-Batches Processed: 10000, Loss: 0.062705
+Epoch: 15, Mini-Batches Processed: 10500, Loss: 0.060509
+Epoch: 15, Mini-Batches Processed: 11000, Loss: 0.065386
+Epoch: 15, Mini-Batches Processed: 11500, Loss: 0.058536
+Epoch: 15, Mini-Batches Processed: 12000, Loss: 0.047857
+Epoch: 15, Mini-Batches Processed: 12500, Loss: 0.0652
+[TIMER] Process Time so far: 1209.58 seconds
+Starting validation...
+[TRAINING] 47185 out of 50000
+[VALIDATION] 7239 out of 10000
+[TIMER] Process Time so far: 1235.64 seconds
+Beginning Epoch 16...
+Epoch: 16, Mini-Batches Processed:   500, Loss: 0.035208
+Epoch: 16, Mini-Batches Processed:  1000, Loss: 0.039866
+Epoch: 16, Mini-Batches Processed:  1500, Loss: 0.0452
+Epoch: 16, Mini-Batches Processed:  2000, Loss: 0.03747
+Epoch: 16, Mini-Batches Processed:  2500, Loss: 0.042686
+Epoch: 16, Mini-Batches Processed:  3000, Loss: 0.049869
+Epoch: 16, Mini-Batches Processed:  3500, Loss: 0.048151
+Epoch: 16, Mini-Batches Processed:  4000, Loss: 0.051947
+Epoch: 16, Mini-Batches Processed:  4500, Loss: 0.049185
+Epoch: 16, Mini-Batches Processed:  5000, Loss: 0.042854
+Epoch: 16, Mini-Batches Processed:  5500, Loss: 0.05355
+Epoch: 16, Mini-Batches Processed:  6000, Loss: 0.051364
+Epoch: 16, Mini-Batches Processed:  6500, Loss: 0.0484
+Epoch: 16, Mini-Batches Processed:  7000, Loss: 0.061976
+Epoch: 16, Mini-Batches Processed:  7500, Loss: 0.061955
+Epoch: 16, Mini-Batches Processed:  8000, Loss: 0.048201
+Epoch: 16, Mini-Batches Processed:  8500, Loss: 0.053022
+Epoch: 16, Mini-Batches Processed:  9000, Loss: 0.055218
+Epoch: 16, Mini-Batches Processed:  9500, Loss: 0.060073
+Epoch: 16, Mini-Batches Processed: 10000, Loss: 0.050679
+Epoch: 16, Mini-Batches Processed: 10500, Loss: 0.053428
+Epoch: 16, Mini-Batches Processed: 11000, Loss: 0.064325
+Epoch: 16, Mini-Batches Processed: 11500, Loss: 0.048816
+Epoch: 16, Mini-Batches Processed: 12000, Loss: 0.062609
+Epoch: 16, Mini-Batches Processed: 12500, Loss: 0.04873
+[TIMER] Process Time so far: 1291.25 seconds
+Starting validation...
+[TRAINING] 47265 out of 50000
+[VALIDATION] 7287 out of 10000
+[TIMER] Process Time so far: 1317.31 seconds
+Beginning Epoch 17...
+Epoch: 17, Mini-Batches Processed:   500, Loss: 0.03429
+Epoch: 17, Mini-Batches Processed:  1000, Loss: 0.033491
+Epoch: 17, Mini-Batches Processed:  1500, Loss: 0.041926
+Epoch: 17, Mini-Batches Processed:  2000, Loss: 0.036965
+Epoch: 17, Mini-Batches Processed:  2500, Loss: 0.046318
+Epoch: 17, Mini-Batches Processed:  3000, Loss: 0.03837
+Epoch: 17, Mini-Batches Processed:  3500, Loss: 0.043778
+Epoch: 17, Mini-Batches Processed:  4000, Loss: 0.042809
+Epoch: 17, Mini-Batches Processed:  4500, Loss: 0.0382
+Epoch: 17, Mini-Batches Processed:  5000, Loss: 0.049007
+Epoch: 17, Mini-Batches Processed:  5500, Loss: 0.043286
+Epoch: 17, Mini-Batches Processed:  6000, Loss: 0.051099
+Epoch: 17, Mini-Batches Processed:  6500, Loss: 0.035153
+Epoch: 17, Mini-Batches Processed:  7000, Loss: 0.047235
+Epoch: 17, Mini-Batches Processed:  7500, Loss: 0.048441
+Epoch: 17, Mini-Batches Processed:  8000, Loss: 0.047474
+Epoch: 17, Mini-Batches Processed:  8500, Loss: 0.04394
+Epoch: 17, Mini-Batches Processed:  9000, Loss: 0.043429
+Epoch: 17, Mini-Batches Processed:  9500, Loss: 0.048164
+Epoch: 17, Mini-Batches Processed: 10000, Loss: 0.048669
+Epoch: 17, Mini-Batches Processed: 10500, Loss: 0.047223
+Epoch: 17, Mini-Batches Processed: 11000, Loss: 0.048695
+Epoch: 17, Mini-Batches Processed: 11500, Loss: 0.047827
+Epoch: 17, Mini-Batches Processed: 12000, Loss: 0.049044
+Epoch: 17, Mini-Batches Processed: 12500, Loss: 0.04429
+[TIMER] Process Time so far: 1372.59 seconds
+Starting validation...
+[TRAINING] 48007 out of 50000
+[VALIDATION] 7338 out of 10000
+[TIMER] Process Time so far: 1398.53 seconds
+Beginning Epoch 18...
+Epoch: 18, Mini-Batches Processed:   500, Loss: 0.023984
+Epoch: 18, Mini-Batches Processed:  1000, Loss: 0.033875
+Epoch: 18, Mini-Batches Processed:  1500, Loss: 0.030099
+Epoch: 18, Mini-Batches Processed:  2000, Loss: 0.031517
+Epoch: 18, Mini-Batches Processed:  2500, Loss: 0.032764
+Epoch: 18, Mini-Batches Processed:  3000, Loss: 0.038277
+Epoch: 18, Mini-Batches Processed:  3500, Loss: 0.038129
+Epoch: 18, Mini-Batches Processed:  4000, Loss: 0.038601
+Epoch: 18, Mini-Batches Processed:  4500, Loss: 0.036626
+Epoch: 18, Mini-Batches Processed:  5000, Loss: 0.034219
+Epoch: 18, Mini-Batches Processed:  5500, Loss: 0.04252
+Epoch: 18, Mini-Batches Processed:  6000, Loss: 0.042765
+Epoch: 18, Mini-Batches Processed:  6500, Loss: 0.039174
+Epoch: 18, Mini-Batches Processed:  7000, Loss: 0.042392
+Epoch: 18, Mini-Batches Processed:  7500, Loss: 0.051928
+Epoch: 18, Mini-Batches Processed:  8000, Loss: 0.047618
+Epoch: 18, Mini-Batches Processed:  8500, Loss: 0.043977
+Epoch: 18, Mini-Batches Processed:  9000, Loss: 0.041628
+Epoch: 18, Mini-Batches Processed:  9500, Loss: 0.048726
+Epoch: 18, Mini-Batches Processed: 10000, Loss: 0.040329
+Epoch: 18, Mini-Batches Processed: 10500, Loss: 0.039367
+Epoch: 18, Mini-Batches Processed: 11000, Loss: 0.04839
+Epoch: 18, Mini-Batches Processed: 11500, Loss: 0.046055
+Epoch: 18, Mini-Batches Processed: 12000, Loss: 0.041685
+Epoch: 18, Mini-Batches Processed: 12500, Loss: 0.044681
+[TIMER] Process Time so far: 1453.69 seconds
+Starting validation...
+[TRAINING] 47315 out of 50000
+[VALIDATION] 7142 out of 10000
+[TIMER] Process Time so far: 1479.38 seconds
+Beginning Epoch 19...
+Epoch: 19, Mini-Batches Processed:   500, Loss: 0.035227
+Epoch: 19, Mini-Batches Processed:  1000, Loss: 0.030403
+Epoch: 19, Mini-Batches Processed:  1500, Loss: 0.031546
+Epoch: 19, Mini-Batches Processed:  2000, Loss: 0.028836
+Epoch: 19, Mini-Batches Processed:  2500, Loss: 0.041748
+Epoch: 19, Mini-Batches Processed:  3000, Loss: 0.035728
+Epoch: 19, Mini-Batches Processed:  3500, Loss: 0.040784
+Epoch: 19, Mini-Batches Processed:  4000, Loss: 0.033188
+Epoch: 19, Mini-Batches Processed:  4500, Loss: 0.036821
+Epoch: 19, Mini-Batches Processed:  5000, Loss: 0.035814
+Epoch: 19, Mini-Batches Processed:  5500, Loss: 0.04096
+Epoch: 19, Mini-Batches Processed:  6000, Loss: 0.037848
+Epoch: 19, Mini-Batches Processed:  6500, Loss: 0.044028
+Epoch: 19, Mini-Batches Processed:  7000, Loss: 0.041108
+Epoch: 19, Mini-Batches Processed:  7500, Loss: 0.035183
+Epoch: 19, Mini-Batches Processed:  8000, Loss: 0.035163
+Epoch: 19, Mini-Batches Processed:  8500, Loss: 0.041558
+Epoch: 19, Mini-Batches Processed:  9000, Loss: 0.040097
+Epoch: 19, Mini-Batches Processed:  9500, Loss: 0.043883
+Epoch: 19, Mini-Batches Processed: 10000, Loss: 0.038684
+Epoch: 19, Mini-Batches Processed: 10500, Loss: 0.049151
+Epoch: 19, Mini-Batches Processed: 11000, Loss: 0.048204
+Epoch: 19, Mini-Batches Processed: 11500, Loss: 0.037872
+Epoch: 19, Mini-Batches Processed: 12000, Loss: 0.044242
+Epoch: 19, Mini-Batches Processed: 12500, Loss: 0.045876
+[TIMER] Process Time so far: 1534.36 seconds
+Starting validation...
+[TRAINING] 48051 out of 50000
+[VALIDATION] 7321 out of 10000
+[TIMER] Process Time so far: 1560.02 seconds
+Beginning Epoch 20...
+Epoch: 20, Mini-Batches Processed:   500, Loss: 0.028181
+Epoch: 20, Mini-Batches Processed:  1000, Loss: 0.027714
+Epoch: 20, Mini-Batches Processed:  1500, Loss: 0.035565
+Epoch: 20, Mini-Batches Processed:  2000, Loss: 0.030945
+Epoch: 20, Mini-Batches Processed:  2500, Loss: 0.030343
+Epoch: 20, Mini-Batches Processed:  3000, Loss: 0.049262
+Epoch: 20, Mini-Batches Processed:  3500, Loss: 0.035128
+Epoch: 20, Mini-Batches Processed:  4000, Loss: 0.031363
+Epoch: 20, Mini-Batches Processed:  4500, Loss: 0.032576
+Epoch: 20, Mini-Batches Processed:  5000, Loss: 0.044679
+Epoch: 20, Mini-Batches Processed:  5500, Loss: 0.031884
+Epoch: 20, Mini-Batches Processed:  6000, Loss: 0.030478
+Epoch: 20, Mini-Batches Processed:  6500, Loss: 0.035275
+Epoch: 20, Mini-Batches Processed:  7000, Loss: 0.027306
+Epoch: 20, Mini-Batches Processed:  7500, Loss: 0.0329
+Epoch: 20, Mini-Batches Processed:  8000, Loss: 0.03878
+Epoch: 20, Mini-Batches Processed:  8500, Loss: 0.037854
+Epoch: 20, Mini-Batches Processed:  9000, Loss: 0.036627
+Epoch: 20, Mini-Batches Processed:  9500, Loss: 0.042269
+Epoch: 20, Mini-Batches Processed: 10000, Loss: 0.040396
+Epoch: 20, Mini-Batches Processed: 10500, Loss: 0.040026
+Epoch: 20, Mini-Batches Processed: 11000, Loss: 0.040385
+Epoch: 20, Mini-Batches Processed: 11500, Loss: 0.045716
+Epoch: 20, Mini-Batches Processed: 12000, Loss: 0.045997
+Epoch: 20, Mini-Batches Processed: 12500, Loss: 0.042018
+[TIMER] Process Time so far: 1615.23 seconds
+Starting validation...
+[TRAINING] 48155 out of 50000
+[VALIDATION] 7331 out of 10000
+[TIMER] Process Time so far: 1641.41 seconds
+Beginning Epoch 21...
+Epoch: 21, Mini-Batches Processed:   500, Loss: 0.02224
+Epoch: 21, Mini-Batches Processed:  1000, Loss: 0.02339
+Epoch: 21, Mini-Batches Processed:  1500, Loss: 0.027152
+Epoch: 21, Mini-Batches Processed:  2000, Loss: 0.036066
+Epoch: 21, Mini-Batches Processed:  2500, Loss: 0.033457
+Epoch: 21, Mini-Batches Processed:  3000, Loss: 0.033072
+Epoch: 21, Mini-Batches Processed:  3500, Loss: 0.02736
+Epoch: 21, Mini-Batches Processed:  4000, Loss: 0.037216
+Epoch: 21, Mini-Batches Processed:  4500, Loss: 0.034081
+Epoch: 21, Mini-Batches Processed:  5000, Loss: 0.029216
+Epoch: 21, Mini-Batches Processed:  5500, Loss: 0.035994
+Epoch: 21, Mini-Batches Processed:  6000, Loss: 0.032426
+Epoch: 21, Mini-Batches Processed:  6500, Loss: 0.037539
+Epoch: 21, Mini-Batches Processed:  7000, Loss: 0.032735
+Epoch: 21, Mini-Batches Processed:  7500, Loss: 0.029269
+Epoch: 21, Mini-Batches Processed:  8000, Loss: 0.031957
+Epoch: 21, Mini-Batches Processed:  8500, Loss: 0.025055
+Epoch: 21, Mini-Batches Processed:  9000, Loss: 0.038619
+Epoch: 21, Mini-Batches Processed:  9500, Loss: 0.041459
+Epoch: 21, Mini-Batches Processed: 10000, Loss: 0.036796
+Epoch: 21, Mini-Batches Processed: 10500, Loss: 0.03228
+Epoch: 21, Mini-Batches Processed: 11000, Loss: 0.037728
+Epoch: 21, Mini-Batches Processed: 11500, Loss: 0.038818
+Epoch: 21, Mini-Batches Processed: 12000, Loss: 0.039369
+Epoch: 21, Mini-Batches Processed: 12500, Loss: 0.039422
+[TIMER] Process Time so far: 1696.48 seconds
+Starting validation...
+[TRAINING] 48662 out of 50000
+[VALIDATION] 7371 out of 10000
+[TIMER] Process Time so far: 1722.48 seconds
+Beginning Epoch 22...
+Epoch: 22, Mini-Batches Processed:   500, Loss: 0.026407
+Epoch: 22, Mini-Batches Processed:  1000, Loss: 0.023085
+Epoch: 22, Mini-Batches Processed:  1500, Loss: 0.030858
+Epoch: 22, Mini-Batches Processed:  2000, Loss: 0.025978
+Epoch: 22, Mini-Batches Processed:  2500, Loss: 0.035613
+Epoch: 22, Mini-Batches Processed:  3000, Loss: 0.032491
+Epoch: 22, Mini-Batches Processed:  3500, Loss: 0.029726
+Epoch: 22, Mini-Batches Processed:  4000, Loss: 0.026589
+Epoch: 22, Mini-Batches Processed:  4500, Loss: 0.030758
+Epoch: 22, Mini-Batches Processed:  5000, Loss: 0.02844
+Epoch: 22, Mini-Batches Processed:  5500, Loss: 0.0276
+Epoch: 22, Mini-Batches Processed:  6000, Loss: 0.028429
+Epoch: 22, Mini-Batches Processed:  6500, Loss: 0.030239
+Epoch: 22, Mini-Batches Processed:  7000, Loss: 0.033019
+Epoch: 22, Mini-Batches Processed:  7500, Loss: 0.037441
+Epoch: 22, Mini-Batches Processed:  8000, Loss: 0.035009
+Epoch: 22, Mini-Batches Processed:  8500, Loss: 0.033808
+Epoch: 22, Mini-Batches Processed:  9000, Loss: 0.037296
+Epoch: 22, Mini-Batches Processed:  9500, Loss: 0.030464
+Epoch: 22, Mini-Batches Processed: 10000, Loss: 0.031313
+Epoch: 22, Mini-Batches Processed: 10500, Loss: 0.029049
+Epoch: 22, Mini-Batches Processed: 11000, Loss: 0.035366
+Epoch: 22, Mini-Batches Processed: 11500, Loss: 0.040252
+Epoch: 22, Mini-Batches Processed: 12000, Loss: 0.036356
+Epoch: 22, Mini-Batches Processed: 12500, Loss: 0.036351
+[TIMER] Process Time so far: 1777.56 seconds
+Starting validation...
+[TRAINING] 48495 out of 50000
+[VALIDATION] 7376 out of 10000
+[TIMER] Process Time so far: 1803.22 seconds
+Beginning Epoch 23...
+Epoch: 23, Mini-Batches Processed:   500, Loss: 0.021828
+Epoch: 23, Mini-Batches Processed:  1000, Loss: 0.028077
+Epoch: 23, Mini-Batches Processed:  1500, Loss: 0.033113
+Epoch: 23, Mini-Batches Processed:  2000, Loss: 0.031043
+Epoch: 23, Mini-Batches Processed:  2500, Loss: 0.019175
+Epoch: 23, Mini-Batches Processed:  3000, Loss: 0.026464
+Epoch: 23, Mini-Batches Processed:  3500, Loss: 0.028212
+Epoch: 23, Mini-Batches Processed:  4000, Loss: 0.024845
+Epoch: 23, Mini-Batches Processed:  4500, Loss: 0.032252
+Epoch: 23, Mini-Batches Processed:  5000, Loss: 0.026909
+Epoch: 23, Mini-Batches Processed:  5500, Loss: 0.027317
+Epoch: 23, Mini-Batches Processed:  6000, Loss: 0.027884
+Epoch: 23, Mini-Batches Processed:  6500, Loss: 0.029113
+Epoch: 23, Mini-Batches Processed:  7000, Loss: 0.040203
+Epoch: 23, Mini-Batches Processed:  7500, Loss: 0.032483
+Epoch: 23, Mini-Batches Processed:  8000, Loss: 0.028746
+Epoch: 23, Mini-Batches Processed:  8500, Loss: 0.033254
+Epoch: 23, Mini-Batches Processed:  9000, Loss: 0.035816
+Epoch: 23, Mini-Batches Processed:  9500, Loss: 0.035189
+Epoch: 23, Mini-Batches Processed: 10000, Loss: 0.035663
+Epoch: 23, Mini-Batches Processed: 10500, Loss: 0.034311
+Epoch: 23, Mini-Batches Processed: 11000, Loss: 0.02423
+Epoch: 23, Mini-Batches Processed: 11500, Loss: 0.033071
+Epoch: 23, Mini-Batches Processed: 12000, Loss: 0.033412
+Epoch: 23, Mini-Batches Processed: 12500, Loss: 0.027089
+[TIMER] Process Time so far: 1858.16 seconds
+Starting validation...
+[TRAINING] 48506 out of 50000
+[VALIDATION] 7330 out of 10000
+[TIMER] Process Time so far: 1883.75 seconds
+Beginning Epoch 24...
+Epoch: 24, Mini-Batches Processed:   500, Loss: 0.025521
+Epoch: 24, Mini-Batches Processed:  1000, Loss: 0.02052
+Epoch: 24, Mini-Batches Processed:  1500, Loss: 0.019866
+Epoch: 24, Mini-Batches Processed:  2000, Loss: 0.016775
+Epoch: 24, Mini-Batches Processed:  2500, Loss: 0.019518
+Epoch: 24, Mini-Batches Processed:  3000, Loss: 0.026503
+Epoch: 24, Mini-Batches Processed:  3500, Loss: 0.026626
+Epoch: 24, Mini-Batches Processed:  4000, Loss: 0.028436
+Epoch: 24, Mini-Batches Processed:  4500, Loss: 0.020344
+Epoch: 24, Mini-Batches Processed:  5000, Loss: 0.025526
+Epoch: 24, Mini-Batches Processed:  5500, Loss: 0.021907
+Epoch: 24, Mini-Batches Processed:  6000, Loss: 0.0223
+Epoch: 24, Mini-Batches Processed:  6500, Loss: 0.033852
+Epoch: 24, Mini-Batches Processed:  7000, Loss: 0.026747
+Epoch: 24, Mini-Batches Processed:  7500, Loss: 0.024322
+Epoch: 24, Mini-Batches Processed:  8000, Loss: 0.025781
+Epoch: 24, Mini-Batches Processed:  8500, Loss: 0.030782
+Epoch: 24, Mini-Batches Processed:  9000, Loss: 0.030865
+Epoch: 24, Mini-Batches Processed:  9500, Loss: 0.035339
+Epoch: 24, Mini-Batches Processed: 10000, Loss: 0.028624
+Epoch: 24, Mini-Batches Processed: 10500, Loss: 0.036037
+Epoch: 24, Mini-Batches Processed: 11000, Loss: 0.042305
+Epoch: 24, Mini-Batches Processed: 11500, Loss: 0.03991
+Epoch: 24, Mini-Batches Processed: 12000, Loss: 0.032315
+Epoch: 24, Mini-Batches Processed: 12500, Loss: 0.038666
+[TIMER] Process Time so far: 1939.02 seconds
+Starting validation...
+[TRAINING] 48106 out of 50000
+[VALIDATION] 7276 out of 10000
+[TIMER] Process Time so far: 1964.92 seconds
+Beginning Epoch 25...
+Epoch: 25, Mini-Batches Processed:   500, Loss: 0.02208
+Epoch: 25, Mini-Batches Processed:  1000, Loss: 0.026944
+Epoch: 25, Mini-Batches Processed:  1500, Loss: 0.019878
+Epoch: 25, Mini-Batches Processed:  2000, Loss: 0.018136
+Epoch: 25, Mini-Batches Processed:  2500, Loss: 0.023106
+Epoch: 25, Mini-Batches Processed:  3000, Loss: 0.035278
+Epoch: 25, Mini-Batches Processed:  3500, Loss: 0.037848
+Epoch: 25, Mini-Batches Processed:  4000, Loss: 0.033097
+Epoch: 25, Mini-Batches Processed:  4500, Loss: 0.020716
+Epoch: 25, Mini-Batches Processed:  5000, Loss: 0.028123
+Epoch: 25, Mini-Batches Processed:  5500, Loss: 0.030768
+Epoch: 25, Mini-Batches Processed:  6000, Loss: 0.029048
+Epoch: 25, Mini-Batches Processed:  6500, Loss: 0.025639
+Epoch: 25, Mini-Batches Processed:  7000, Loss: 0.024727
+Epoch: 25, Mini-Batches Processed:  7500, Loss: 0.024046
+Epoch: 25, Mini-Batches Processed:  8000, Loss: 0.023081
+Epoch: 25, Mini-Batches Processed:  8500, Loss: 0.03152
+Epoch: 25, Mini-Batches Processed:  9000, Loss: 0.026572
+Epoch: 25, Mini-Batches Processed:  9500, Loss: 0.025332
+Epoch: 25, Mini-Batches Processed: 10000, Loss: 0.033639
+Epoch: 25, Mini-Batches Processed: 10500, Loss: 0.028248
+Epoch: 25, Mini-Batches Processed: 11000, Loss: 0.032272
+Epoch: 25, Mini-Batches Processed: 11500, Loss: 0.035915
+Epoch: 25, Mini-Batches Processed: 12000, Loss: 0.030991
+Epoch: 25, Mini-Batches Processed: 12500, Loss: 0.028544
+[TIMER] Process Time so far: 2021.16 seconds
+Starting validation...
+[TRAINING] 48702 out of 50000
+[VALIDATION] 7341 out of 10000
+[TIMER] Process Time so far: 2047.84 seconds
+Beginning Epoch 26...
+Epoch: 26, Mini-Batches Processed:   500, Loss: 0.022187
+Epoch: 26, Mini-Batches Processed:  1000, Loss: 0.020366
+Epoch: 26, Mini-Batches Processed:  1500, Loss: 0.018916
+Epoch: 26, Mini-Batches Processed:  2000, Loss: 0.014592
+Epoch: 26, Mini-Batches Processed:  2500, Loss: 0.024395
+Epoch: 26, Mini-Batches Processed:  3000, Loss: 0.027787
+Epoch: 26, Mini-Batches Processed:  3500, Loss: 0.021396
+Epoch: 26, Mini-Batches Processed:  4000, Loss: 0.022774
+Epoch: 26, Mini-Batches Processed:  4500, Loss: 0.028841
+Epoch: 26, Mini-Batches Processed:  5000, Loss: 0.026592
+Epoch: 26, Mini-Batches Processed:  5500, Loss: 0.015134
+Epoch: 26, Mini-Batches Processed:  6000, Loss: 0.025553
+Epoch: 26, Mini-Batches Processed:  6500, Loss: 0.022859
+Epoch: 26, Mini-Batches Processed:  7000, Loss: 0.033821
+Epoch: 26, Mini-Batches Processed:  7500, Loss: 0.027065
+Epoch: 26, Mini-Batches Processed:  8000, Loss: 0.02407
+Epoch: 26, Mini-Batches Processed:  8500, Loss: 0.034414
+Epoch: 26, Mini-Batches Processed:  9000, Loss: 0.035251
+Epoch: 26, Mini-Batches Processed:  9500, Loss: 0.026593
+Epoch: 26, Mini-Batches Processed: 10000, Loss: 0.025334
+Epoch: 26, Mini-Batches Processed: 10500, Loss: 0.023923
+Epoch: 26, Mini-Batches Processed: 11000, Loss: 0.032395
+Epoch: 26, Mini-Batches Processed: 11500, Loss: 0.033426
+Epoch: 26, Mini-Batches Processed: 12000, Loss: 0.029355
+Epoch: 26, Mini-Batches Processed: 12500, Loss: 0.027264
+[TIMER] Process Time so far: 2103.3 seconds
+Starting validation...
+[TRAINING] 48823 out of 50000
+[VALIDATION] 7298 out of 10000
+[TIMER] Process Time so far: 2129.41 seconds
+Beginning Epoch 27...
+Epoch: 27, Mini-Batches Processed:   500, Loss: 0.015942
+Epoch: 27, Mini-Batches Processed:  1000, Loss: 0.020574
+Epoch: 27, Mini-Batches Processed:  1500, Loss: 0.020209
+Epoch: 27, Mini-Batches Processed:  2000, Loss: 0.019027
+Epoch: 27, Mini-Batches Processed:  2500, Loss: 0.016479
+Epoch: 27, Mini-Batches Processed:  3000, Loss: 0.027502
+Epoch: 27, Mini-Batches Processed:  3500, Loss: 0.0212
+Epoch: 27, Mini-Batches Processed:  4000, Loss: 0.019153
+Epoch: 27, Mini-Batches Processed:  4500, Loss: 0.023611
+Epoch: 27, Mini-Batches Processed:  5000, Loss: 0.021302
+Epoch: 27, Mini-Batches Processed:  5500, Loss: 0.029871
+Epoch: 27, Mini-Batches Processed:  6000, Loss: 0.022407
+Epoch: 27, Mini-Batches Processed:  6500, Loss: 0.028375
+Epoch: 27, Mini-Batches Processed:  7000, Loss: 0.024596
+Epoch: 27, Mini-Batches Processed:  7500, Loss: 0.030445
+Epoch: 27, Mini-Batches Processed:  8000, Loss: 0.030267
+Epoch: 27, Mini-Batches Processed:  8500, Loss: 0.018512
+Epoch: 27, Mini-Batches Processed:  9000, Loss: 0.027188
+Epoch: 27, Mini-Batches Processed:  9500, Loss: 0.02598
+Epoch: 27, Mini-Batches Processed: 10000, Loss: 0.029247
+Epoch: 27, Mini-Batches Processed: 10500, Loss: 0.021717
+Epoch: 27, Mini-Batches Processed: 11000, Loss: 0.026479
+Epoch: 27, Mini-Batches Processed: 11500, Loss: 0.024898
+Epoch: 27, Mini-Batches Processed: 12000, Loss: 0.029443
+Epoch: 27, Mini-Batches Processed: 12500, Loss: 0.029695
+[TIMER] Process Time so far: 2183.75 seconds
+Starting validation...
+[TRAINING] 48360 out of 50000
+[VALIDATION] 7225 out of 10000
+[TIMER] Process Time so far: 2209.7 seconds
+Beginning Epoch 28...
+Epoch: 28, Mini-Batches Processed:   500, Loss: 0.025567
+Epoch: 28, Mini-Batches Processed:  1000, Loss: 0.022718
+Epoch: 28, Mini-Batches Processed:  1500, Loss: 0.023047
+Epoch: 28, Mini-Batches Processed:  2000, Loss: 0.019787
+Epoch: 28, Mini-Batches Processed:  2500, Loss: 0.018366
+Epoch: 28, Mini-Batches Processed:  3000, Loss: 0.022658
+Epoch: 28, Mini-Batches Processed:  3500, Loss: 0.0234
+Epoch: 28, Mini-Batches Processed:  4000, Loss: 0.029783
+Epoch: 28, Mini-Batches Processed:  4500, Loss: 0.028418
+Epoch: 28, Mini-Batches Processed:  5000, Loss: 0.011361
+Epoch: 28, Mini-Batches Processed:  5500, Loss: 0.015594
+Epoch: 28, Mini-Batches Processed:  6000, Loss: 0.022579
+Epoch: 28, Mini-Batches Processed:  6500, Loss: 0.024009
+Epoch: 28, Mini-Batches Processed:  7000, Loss: 0.019988
+Epoch: 28, Mini-Batches Processed:  7500, Loss: 0.029863
+Epoch: 28, Mini-Batches Processed:  8000, Loss: 0.02265
+Epoch: 28, Mini-Batches Processed:  8500, Loss: 0.022308
+Epoch: 28, Mini-Batches Processed:  9000, Loss: 0.027502
+Epoch: 28, Mini-Batches Processed:  9500, Loss: 0.021317
+Epoch: 28, Mini-Batches Processed: 10000, Loss: 0.016405
+Epoch: 28, Mini-Batches Processed: 10500, Loss: 0.027515
+Epoch: 28, Mini-Batches Processed: 11000, Loss: 0.036861
+Epoch: 28, Mini-Batches Processed: 11500, Loss: 0.02704
+Epoch: 28, Mini-Batches Processed: 12000, Loss: 0.023815
+Epoch: 28, Mini-Batches Processed: 12500, Loss: 0.029807
+[TIMER] Process Time so far: 2264.86 seconds
+Starting validation...
+[TRAINING] 48520 out of 50000
+[VALIDATION] 7357 out of 10000
+[TIMER] Process Time so far: 2290.56 seconds
+Beginning Epoch 29...
+Epoch: 29, Mini-Batches Processed:   500, Loss: 0.016897
+Epoch: 29, Mini-Batches Processed:  1000, Loss: 0.017272
+Epoch: 29, Mini-Batches Processed:  1500, Loss: 0.016627
+Epoch: 29, Mini-Batches Processed:  2000, Loss: 0.018034
+Epoch: 29, Mini-Batches Processed:  2500, Loss: 0.017558
+Epoch: 29, Mini-Batches Processed:  3000, Loss: 0.031666
+Epoch: 29, Mini-Batches Processed:  3500, Loss: 0.027098
+Epoch: 29, Mini-Batches Processed:  4000, Loss: 0.020612
+Epoch: 29, Mini-Batches Processed:  4500, Loss: 0.025633
+Epoch: 29, Mini-Batches Processed:  5000, Loss: 0.024468
+Epoch: 29, Mini-Batches Processed:  5500, Loss: 0.026959
+Epoch: 29, Mini-Batches Processed:  6000, Loss: 0.02594
+Epoch: 29, Mini-Batches Processed:  6500, Loss: 0.023283
+Epoch: 29, Mini-Batches Processed:  7000, Loss: 0.023676
+Epoch: 29, Mini-Batches Processed:  7500, Loss: 0.02292
+Epoch: 29, Mini-Batches Processed:  8000, Loss: 0.026006
+Epoch: 29, Mini-Batches Processed:  8500, Loss: 0.02588
+Epoch: 29, Mini-Batches Processed:  9000, Loss: 0.022743
+Epoch: 29, Mini-Batches Processed:  9500, Loss: 0.025105
+Epoch: 29, Mini-Batches Processed: 10000, Loss: 0.019179
+Epoch: 29, Mini-Batches Processed: 10500, Loss: 0.032001
+Epoch: 29, Mini-Batches Processed: 11000, Loss: 0.02677
+Epoch: 29, Mini-Batches Processed: 11500, Loss: 0.025038
+Epoch: 29, Mini-Batches Processed: 12000, Loss: 0.028667
+Epoch: 29, Mini-Batches Processed: 12500, Loss: 0.01988
+[TIMER] Process Time so far: 2345.2 seconds
+Starting validation...
+[TRAINING] 48679 out of 50000
+[VALIDATION] 7302 out of 10000
+[TIMER] Process Time so far: 2370.73 seconds
+Beginning Epoch 30...
+Epoch: 30, Mini-Batches Processed:   500, Loss: 0.021186
+Epoch: 30, Mini-Batches Processed:  1000, Loss: 0.018434
+Epoch: 30, Mini-Batches Processed:  1500, Loss: 0.019277
+Epoch: 30, Mini-Batches Processed:  2000, Loss: 0.018761
+Epoch: 30, Mini-Batches Processed:  2500, Loss: 0.020678
+Epoch: 30, Mini-Batches Processed:  3000, Loss: 0.018195
+Epoch: 30, Mini-Batches Processed:  3500, Loss: 0.020484
+Epoch: 30, Mini-Batches Processed:  4000, Loss: 0.020802
+Epoch: 30, Mini-Batches Processed:  4500, Loss: 0.022159
+Epoch: 30, Mini-Batches Processed:  5000, Loss: 0.028204
+Epoch: 30, Mini-Batches Processed:  5500, Loss: 0.018502
+Epoch: 30, Mini-Batches Processed:  6000, Loss: 0.026785
+Epoch: 30, Mini-Batches Processed:  6500, Loss: 0.036212
+Epoch: 30, Mini-Batches Processed:  7000, Loss: 0.020373
+Epoch: 30, Mini-Batches Processed:  7500, Loss: 0.029487
+Epoch: 30, Mini-Batches Processed:  8000, Loss: 0.024925
+Epoch: 30, Mini-Batches Processed:  8500, Loss: 0.025574
+Epoch: 30, Mini-Batches Processed:  9000, Loss: 0.031608
+Epoch: 30, Mini-Batches Processed:  9500, Loss: 0.019292
+Epoch: 30, Mini-Batches Processed: 10000, Loss: 0.024105
+Epoch: 30, Mini-Batches Processed: 10500, Loss: 0.024476
+Epoch: 30, Mini-Batches Processed: 11000, Loss: 0.036864
+Epoch: 30, Mini-Batches Processed: 11500, Loss: 0.019776
+Epoch: 30, Mini-Batches Processed: 12000, Loss: 0.025856
+Epoch: 30, Mini-Batches Processed: 12500, Loss: 0.021779
+[TIMER] Process Time so far: 2425.72 seconds
+Starting validation...
+[TRAINING] 49104 out of 50000
+[VALIDATION] 7380 out of 10000
+[TIMER] Process Time so far: 2451.97 seconds
+Beginning Epoch 31...
+Epoch: 31, Mini-Batches Processed:   500, Loss: 0.016337
+Epoch: 31, Mini-Batches Processed:  1000, Loss: 0.022347
+Epoch: 31, Mini-Batches Processed:  1500, Loss: 0.013991
+Epoch: 31, Mini-Batches Processed:  2000, Loss: 0.012359
+Epoch: 31, Mini-Batches Processed:  2500, Loss: 0.014791
+Epoch: 31, Mini-Batches Processed:  3000, Loss: 0.014579
+Epoch: 31, Mini-Batches Processed:  3500, Loss: 0.019721
+Epoch: 31, Mini-Batches Processed:  4000, Loss: 0.028654
+Epoch: 31, Mini-Batches Processed:  4500, Loss: 0.021567
+Epoch: 31, Mini-Batches Processed:  5000, Loss: 0.024624
+Epoch: 31, Mini-Batches Processed:  5500, Loss: 0.02208
+Epoch: 31, Mini-Batches Processed:  6000, Loss: 0.030669
+Epoch: 31, Mini-Batches Processed:  6500, Loss: 0.020143
+Epoch: 31, Mini-Batches Processed:  7000, Loss: 0.022262
+Epoch: 31, Mini-Batches Processed:  7500, Loss: 0.022531
+Epoch: 31, Mini-Batches Processed:  8000, Loss: 0.019791
+Epoch: 31, Mini-Batches Processed:  8500, Loss: 0.026682
+Epoch: 31, Mini-Batches Processed:  9000, Loss: 0.023663
+Epoch: 31, Mini-Batches Processed:  9500, Loss: 0.024473
+Epoch: 31, Mini-Batches Processed: 10000, Loss: 0.02696
+Epoch: 31, Mini-Batches Processed: 10500, Loss: 0.016243
+Epoch: 31, Mini-Batches Processed: 11000, Loss: 0.02701
+Epoch: 31, Mini-Batches Processed: 11500, Loss: 0.021701
+Epoch: 31, Mini-Batches Processed: 12000, Loss: 0.023498
+Epoch: 31, Mini-Batches Processed: 12500, Loss: 0.022488
+[TIMER] Process Time so far: 2507.02 seconds
+Starting validation...
+[TRAINING] 48694 out of 50000
+[VALIDATION] 7238 out of 10000
+[TIMER] Process Time so far: 2532.98 seconds
+Beginning Epoch 32...
+Epoch: 32, Mini-Batches Processed:   500, Loss: 0.013954
+Epoch: 32, Mini-Batches Processed:  1000, Loss: 0.025793
+Epoch: 32, Mini-Batches Processed:  1500, Loss: 0.025965
+Epoch: 32, Mini-Batches Processed:  2000, Loss: 0.02158
+Epoch: 32, Mini-Batches Processed:  2500, Loss: 0.017694
+Epoch: 32, Mini-Batches Processed:  3000, Loss: 0.01587
+Epoch: 32, Mini-Batches Processed:  3500, Loss: 0.032611
+Epoch: 32, Mini-Batches Processed:  4000, Loss: 0.017449
+Epoch: 32, Mini-Batches Processed:  4500, Loss: 0.021143
+Epoch: 32, Mini-Batches Processed:  5000, Loss: 0.022652
+Epoch: 32, Mini-Batches Processed:  5500, Loss: 0.020064
+Epoch: 32, Mini-Batches Processed:  6000, Loss: 0.026111
+Epoch: 32, Mini-Batches Processed:  6500, Loss: 0.019747
+Epoch: 32, Mini-Batches Processed:  7000, Loss: 0.023946
+Epoch: 32, Mini-Batches Processed:  7500, Loss: 0.022636
+Epoch: 32, Mini-Batches Processed:  8000, Loss: 0.027224
+Epoch: 32, Mini-Batches Processed:  8500, Loss: 0.022573
+Epoch: 32, Mini-Batches Processed:  9000, Loss: 0.025351
+Epoch: 32, Mini-Batches Processed:  9500, Loss: 0.020954
+Epoch: 32, Mini-Batches Processed: 10000, Loss: 0.016271
+Epoch: 32, Mini-Batches Processed: 10500, Loss: 0.016579
+Epoch: 32, Mini-Batches Processed: 11000, Loss: 0.025683
+Epoch: 32, Mini-Batches Processed: 11500, Loss: 0.02585
+Epoch: 32, Mini-Batches Processed: 12000, Loss: 0.021876
+Epoch: 32, Mini-Batches Processed: 12500, Loss: 0.029077
+[TIMER] Process Time so far: 2587.44 seconds
+Starting validation...
+[TRAINING] 48737 out of 50000
+[VALIDATION] 7276 out of 10000
+[TIMER] Process Time so far: 2613.33 seconds
+Beginning Epoch 33...
+Epoch: 33, Mini-Batches Processed:   500, Loss: 0.022294
+Epoch: 33, Mini-Batches Processed:  1000, Loss: 0.019355
+Epoch: 33, Mini-Batches Processed:  1500, Loss: 0.011892
+Epoch: 33, Mini-Batches Processed:  2000, Loss: 0.020322
+Epoch: 33, Mini-Batches Processed:  2500, Loss: 0.013941
+Epoch: 33, Mini-Batches Processed:  3000, Loss: 0.011982
+Epoch: 33, Mini-Batches Processed:  3500, Loss: 0.024839
+Epoch: 33, Mini-Batches Processed:  4000, Loss: 0.023689
+Epoch: 33, Mini-Batches Processed:  4500, Loss: 0.020585
+Epoch: 33, Mini-Batches Processed:  5000, Loss: 0.017893
+Epoch: 33, Mini-Batches Processed:  5500, Loss: 0.027209
+Epoch: 33, Mini-Batches Processed:  6000, Loss: 0.017469
+Epoch: 33, Mini-Batches Processed:  6500, Loss: 0.024903
+Epoch: 33, Mini-Batches Processed:  7000, Loss: 0.020079
+Epoch: 33, Mini-Batches Processed:  7500, Loss: 0.01553
+Epoch: 33, Mini-Batches Processed:  8000, Loss: 0.01459
+Epoch: 33, Mini-Batches Processed:  8500, Loss: 0.023568
+Epoch: 33, Mini-Batches Processed:  9000, Loss: 0.015004
+Epoch: 33, Mini-Batches Processed:  9500, Loss: 0.025076
+Epoch: 33, Mini-Batches Processed: 10000, Loss: 0.036409
+Epoch: 33, Mini-Batches Processed: 10500, Loss: 0.021343
+Epoch: 33, Mini-Batches Processed: 11000, Loss: 0.023837
+Epoch: 33, Mini-Batches Processed: 11500, Loss: 0.021852
+Epoch: 33, Mini-Batches Processed: 12000, Loss: 0.019345
+Epoch: 33, Mini-Batches Processed: 12500, Loss: 0.017317
+[TIMER] Process Time so far: 2668.05 seconds
+Starting validation...
+[TRAINING] 48745 out of 50000
+[VALIDATION] 7237 out of 10000
+[TIMER] Process Time so far: 2693.64 seconds
+Beginning Epoch 34...
+Epoch: 34, Mini-Batches Processed:   500, Loss: 0.014402
+Epoch: 34, Mini-Batches Processed:  1000, Loss: 0.013887
+Epoch: 34, Mini-Batches Processed:  1500, Loss: 0.016133
+Epoch: 34, Mini-Batches Processed:  2000, Loss: 0.010818
+Epoch: 34, Mini-Batches Processed:  2500, Loss: 0.018086
+Epoch: 34, Mini-Batches Processed:  3000, Loss: 0.01963
+Epoch: 34, Mini-Batches Processed:  3500, Loss: 0.01858
+Epoch: 34, Mini-Batches Processed:  4000, Loss: 0.01955
+Epoch: 34, Mini-Batches Processed:  4500, Loss: 0.022478
+Epoch: 34, Mini-Batches Processed:  5000, Loss: 0.022234
+Epoch: 34, Mini-Batches Processed:  5500, Loss: 0.020242
+Epoch: 34, Mini-Batches Processed:  6000, Loss: 0.015551
+Epoch: 34, Mini-Batches Processed:  6500, Loss: 0.016846
+Epoch: 34, Mini-Batches Processed:  7000, Loss: 0.022673
+Epoch: 34, Mini-Batches Processed:  7500, Loss: 0.014619
+Epoch: 34, Mini-Batches Processed:  8000, Loss: 0.015861
+Epoch: 34, Mini-Batches Processed:  8500, Loss: 0.026685
+Epoch: 34, Mini-Batches Processed:  9000, Loss: 0.018189
+Epoch: 34, Mini-Batches Processed:  9500, Loss: 0.021317
+Epoch: 34, Mini-Batches Processed: 10000, Loss: 0.017021
+Epoch: 34, Mini-Batches Processed: 10500, Loss: 0.017189
+Epoch: 34, Mini-Batches Processed: 11000, Loss: 0.022274
+Epoch: 34, Mini-Batches Processed: 11500, Loss: 0.025355
+Epoch: 34, Mini-Batches Processed: 12000, Loss: 0.018366
+Epoch: 34, Mini-Batches Processed: 12500, Loss: 0.014019
+[TIMER] Process Time so far: 2748.73 seconds
+Starting validation...
+[TRAINING] 49334 out of 50000
+[VALIDATION] 7423 out of 10000
+[TIMER] Process Time so far: 2774.45 seconds
+Beginning Epoch 35...
+Epoch: 35, Mini-Batches Processed:   500, Loss: 0.01319
+Epoch: 35, Mini-Batches Processed:  1000, Loss: 0.01284
+Epoch: 35, Mini-Batches Processed:  1500, Loss: 0.013867
+Epoch: 35, Mini-Batches Processed:  2000, Loss: 0.01395
+Epoch: 35, Mini-Batches Processed:  2500, Loss: 0.018999
+Epoch: 35, Mini-Batches Processed:  3000, Loss: 0.014008
+Epoch: 35, Mini-Batches Processed:  3500, Loss: 0.011307
+Epoch: 35, Mini-Batches Processed:  4000, Loss: 0.01885
+Epoch: 35, Mini-Batches Processed:  4500, Loss: 0.018973
+Epoch: 35, Mini-Batches Processed:  5000, Loss: 0.01859
+Epoch: 35, Mini-Batches Processed:  5500, Loss: 0.016786
+Epoch: 35, Mini-Batches Processed:  6000, Loss: 0.0082632
+Epoch: 35, Mini-Batches Processed:  6500, Loss: 0.019425
+Epoch: 35, Mini-Batches Processed:  7000, Loss: 0.022224
+Epoch: 35, Mini-Batches Processed:  7500, Loss: 0.02217
+Epoch: 35, Mini-Batches Processed:  8000, Loss: 0.018689
+Epoch: 35, Mini-Batches Processed:  8500, Loss: 0.014098
+Epoch: 35, Mini-Batches Processed:  9000, Loss: 0.0173
+Epoch: 35, Mini-Batches Processed:  9500, Loss: 0.018939
+Epoch: 35, Mini-Batches Processed: 10000, Loss: 0.024468
+Epoch: 35, Mini-Batches Processed: 10500, Loss: 0.022011
+Epoch: 35, Mini-Batches Processed: 11000, Loss: 0.017018
+Epoch: 35, Mini-Batches Processed: 11500, Loss: 0.017269
+Epoch: 35, Mini-Batches Processed: 12000, Loss: 0.027406
+Epoch: 35, Mini-Batches Processed: 12500, Loss: 0.018586
+[TIMER] Process Time so far: 2829.05 seconds
+Starting validation...
+[TRAINING] 49033 out of 50000
+[VALIDATION] 7333 out of 10000
+[TIMER] Process Time so far: 2855.08 seconds
+Beginning Epoch 36...
+Epoch: 36, Mini-Batches Processed:   500, Loss: 0.014372
+Epoch: 36, Mini-Batches Processed:  1000, Loss: 0.020464
+Epoch: 36, Mini-Batches Processed:  1500, Loss: 0.011942
+Epoch: 36, Mini-Batches Processed:  2000, Loss: 0.016428
+Epoch: 36, Mini-Batches Processed:  2500, Loss: 0.0219
+Epoch: 36, Mini-Batches Processed:  3000, Loss: 0.010009
+Epoch: 36, Mini-Batches Processed:  3500, Loss: 0.017041
+Epoch: 36, Mini-Batches Processed:  4000, Loss: 0.022533
+Epoch: 36, Mini-Batches Processed:  4500, Loss: 0.024272
+Epoch: 36, Mini-Batches Processed:  5000, Loss: 0.021833
+Epoch: 36, Mini-Batches Processed:  5500, Loss: 0.02317
+Epoch: 36, Mini-Batches Processed:  6000, Loss: 0.025421
+Epoch: 36, Mini-Batches Processed:  6500, Loss: 0.020495
+Epoch: 36, Mini-Batches Processed:  7000, Loss: 0.014405
+Epoch: 36, Mini-Batches Processed:  7500, Loss: 0.017411
+Epoch: 36, Mini-Batches Processed:  8000, Loss: 0.019366
+Epoch: 36, Mini-Batches Processed:  8500, Loss: 0.010821
+Epoch: 36, Mini-Batches Processed:  9000, Loss: 0.019509
+Epoch: 36, Mini-Batches Processed:  9500, Loss: 0.011486
+Epoch: 36, Mini-Batches Processed: 10000, Loss: 0.023677
+Epoch: 36, Mini-Batches Processed: 10500, Loss: 0.021104
+Epoch: 36, Mini-Batches Processed: 11000, Loss: 0.025692
+Epoch: 36, Mini-Batches Processed: 11500, Loss: 0.024828
+Epoch: 36, Mini-Batches Processed: 12000, Loss: 0.016886
+Epoch: 36, Mini-Batches Processed: 12500, Loss: 0.026091
+[TIMER] Process Time so far: 2911.14 seconds
+Starting validation...
+[TRAINING] 49229 out of 50000
+[VALIDATION] 7376 out of 10000
+[TIMER] Process Time so far: 2937.16 seconds
+Beginning Epoch 37...
+Epoch: 37, Mini-Batches Processed:   500, Loss: 0.014124
+Epoch: 37, Mini-Batches Processed:  1000, Loss: 0.016709
+Epoch: 37, Mini-Batches Processed:  1500, Loss: 0.014212
+Epoch: 37, Mini-Batches Processed:  2000, Loss: 0.01376
+Epoch: 37, Mini-Batches Processed:  2500, Loss: 0.017753
+Epoch: 37, Mini-Batches Processed:  3000, Loss: 0.011323
+Epoch: 37, Mini-Batches Processed:  3500, Loss: 0.010701
+Epoch: 37, Mini-Batches Processed:  4000, Loss: 0.016404
+Epoch: 37, Mini-Batches Processed:  4500, Loss: 0.015345
+Epoch: 37, Mini-Batches Processed:  5000, Loss: 0.014322
+Epoch: 37, Mini-Batches Processed:  5500, Loss: 0.01647
+Epoch: 37, Mini-Batches Processed:  6000, Loss: 0.018839
+Epoch: 37, Mini-Batches Processed:  6500, Loss: 0.02249
+Epoch: 37, Mini-Batches Processed:  7000, Loss: 0.026749
+Epoch: 37, Mini-Batches Processed:  7500, Loss: 0.017359
+Epoch: 37, Mini-Batches Processed:  8000, Loss: 0.027541
+Epoch: 37, Mini-Batches Processed:  8500, Loss: 0.024959
+Epoch: 37, Mini-Batches Processed:  9000, Loss: 0.017991
+Epoch: 37, Mini-Batches Processed:  9500, Loss: 0.016169
+Epoch: 37, Mini-Batches Processed: 10000, Loss: 0.020024
+Epoch: 37, Mini-Batches Processed: 10500, Loss: 0.019273
+Epoch: 37, Mini-Batches Processed: 11000, Loss: 0.015433
+Epoch: 37, Mini-Batches Processed: 11500, Loss: 0.01693
+Epoch: 37, Mini-Batches Processed: 12000, Loss: 0.015836
+Epoch: 37, Mini-Batches Processed: 12500, Loss: 0.02091
+[TIMER] Process Time so far: 2995.08 seconds
+Starting validation...
+[TRAINING] 48759 out of 50000
+[VALIDATION] 7244 out of 10000
+[TIMER] Process Time so far: 3022.59 seconds
+Beginning Epoch 38...
+Epoch: 38, Mini-Batches Processed:   500, Loss: 0.016936
+Epoch: 38, Mini-Batches Processed:  1000, Loss: 0.015769
+Epoch: 38, Mini-Batches Processed:  1500, Loss: 0.017432
+Epoch: 38, Mini-Batches Processed:  2000, Loss: 0.017665
+Epoch: 38, Mini-Batches Processed:  2500, Loss: 0.011987
+Epoch: 38, Mini-Batches Processed:  3000, Loss: 0.015304
+Epoch: 38, Mini-Batches Processed:  3500, Loss: 0.024735
+Epoch: 38, Mini-Batches Processed:  4000, Loss: 0.022556
+Epoch: 38, Mini-Batches Processed:  4500, Loss: 0.025389
+Epoch: 38, Mini-Batches Processed:  5000, Loss: 0.020573
+Epoch: 38, Mini-Batches Processed:  5500, Loss: 0.021183
+Epoch: 38, Mini-Batches Processed:  6000, Loss: 0.018109
+Epoch: 38, Mini-Batches Processed:  6500, Loss: 0.010806
+Epoch: 38, Mini-Batches Processed:  7000, Loss: 0.01645
+Epoch: 38, Mini-Batches Processed:  7500, Loss: 0.024098
+Epoch: 38, Mini-Batches Processed:  8000, Loss: 0.015177
+Epoch: 38, Mini-Batches Processed:  8500, Loss: 0.019342
+Epoch: 38, Mini-Batches Processed:  9000, Loss: 0.018172
+Epoch: 38, Mini-Batches Processed:  9500, Loss: 0.017
+Epoch: 38, Mini-Batches Processed: 10000, Loss: 0.01565
+Epoch: 38, Mini-Batches Processed: 10500, Loss: 0.010233
+Epoch: 38, Mini-Batches Processed: 11000, Loss: 0.021127
+Epoch: 38, Mini-Batches Processed: 11500, Loss: 0.019862
+Epoch: 38, Mini-Batches Processed: 12000, Loss: 0.02168
+Epoch: 38, Mini-Batches Processed: 12500, Loss: 0.020071
+[TIMER] Process Time so far: 3083.61 seconds
+Starting validation...
+[TRAINING] 48912 out of 50000
+[VALIDATION] 7328 out of 10000
+[TIMER] Process Time so far: 3110.78 seconds
+Beginning Epoch 39...
+Epoch: 39, Mini-Batches Processed:   500, Loss: 0.012067
+Epoch: 39, Mini-Batches Processed:  1000, Loss: 0.017176
+Epoch: 39, Mini-Batches Processed:  1500, Loss: 0.018204
+Epoch: 39, Mini-Batches Processed:  2000, Loss: 0.016373
+Epoch: 39, Mini-Batches Processed:  2500, Loss: 0.016146
+Epoch: 39, Mini-Batches Processed:  3000, Loss: 0.019504
+Epoch: 39, Mini-Batches Processed:  3500, Loss: 0.01621
+Epoch: 39, Mini-Batches Processed:  4000, Loss: 0.018999
+Epoch: 39, Mini-Batches Processed:  4500, Loss: 0.019439
+Epoch: 39, Mini-Batches Processed:  5000, Loss: 0.016312
+Epoch: 39, Mini-Batches Processed:  5500, Loss: 0.014581
+Epoch: 39, Mini-Batches Processed:  6000, Loss: 0.015128
+Epoch: 39, Mini-Batches Processed:  6500, Loss: 0.018515
+Epoch: 39, Mini-Batches Processed:  7000, Loss: 0.020327
+Epoch: 39, Mini-Batches Processed:  7500, Loss: 0.019151
+Epoch: 39, Mini-Batches Processed:  8000, Loss: 0.01709
+Epoch: 39, Mini-Batches Processed:  8500, Loss: 0.01444
+Epoch: 39, Mini-Batches Processed:  9000, Loss: 0.023405
+Epoch: 39, Mini-Batches Processed:  9500, Loss: 0.01861
+Epoch: 39, Mini-Batches Processed: 10000, Loss: 0.012809
+Epoch: 39, Mini-Batches Processed: 10500, Loss: 0.015135
+Epoch: 39, Mini-Batches Processed: 11000, Loss: 0.011785
+Epoch: 39, Mini-Batches Processed: 11500, Loss: 0.022447
+Epoch: 39, Mini-Batches Processed: 12000, Loss: 0.013644
+Epoch: 39, Mini-Batches Processed: 12500, Loss: 0.016557
+[TIMER] Process Time so far: 3172.11 seconds
+Starting validation...
+[TRAINING] 49430 out of 50000
+[VALIDATION] 7433 out of 10000
+[TIMER] Process Time so far: 3199.36 seconds
+Beginning Epoch 40...
+Epoch: 40, Mini-Batches Processed:   500, Loss: 0.0092307
+Epoch: 40, Mini-Batches Processed:  1000, Loss: 0.0097979
+Epoch: 40, Mini-Batches Processed:  1500, Loss: 0.011686
+Epoch: 40, Mini-Batches Processed:  2000, Loss: 0.025211
+Epoch: 40, Mini-Batches Processed:  2500, Loss: 0.013761
+Epoch: 40, Mini-Batches Processed:  3000, Loss: 0.012393
+Epoch: 40, Mini-Batches Processed:  3500, Loss: 0.0086818
+Epoch: 40, Mini-Batches Processed:  4000, Loss: 0.016888
+Epoch: 40, Mini-Batches Processed:  4500, Loss: 0.013875
+Epoch: 40, Mini-Batches Processed:  5000, Loss: 0.02652
+Epoch: 40, Mini-Batches Processed:  5500, Loss: 0.014985
+Epoch: 40, Mini-Batches Processed:  6000, Loss: 0.021246
+Epoch: 40, Mini-Batches Processed:  6500, Loss: 0.020538
+Epoch: 40, Mini-Batches Processed:  7000, Loss: 0.015109
+Epoch: 40, Mini-Batches Processed:  7500, Loss: 0.015711
+Epoch: 40, Mini-Batches Processed:  8000, Loss: 0.017397
+Epoch: 40, Mini-Batches Processed:  8500, Loss: 0.018483
+Epoch: 40, Mini-Batches Processed:  9000, Loss: 0.018966
+Epoch: 40, Mini-Batches Processed:  9500, Loss: 0.015608
+Epoch: 40, Mini-Batches Processed: 10000, Loss: 0.017022
+Epoch: 40, Mini-Batches Processed: 10500, Loss: 0.015272
+Epoch: 40, Mini-Batches Processed: 11000, Loss: 0.018785
+Epoch: 40, Mini-Batches Processed: 11500, Loss: 0.015237
+Epoch: 40, Mini-Batches Processed: 12000, Loss: 0.022552
+Epoch: 40, Mini-Batches Processed: 12500, Loss: 0.014552
+[TIMER] Process Time so far: 3261.53 seconds
+Starting validation...
+[TRAINING] 49450 out of 50000
+[VALIDATION] 7456 out of 10000
+[TIMER] Process Time so far: 3289.11 seconds
+Beginning Epoch 41...
+Epoch: 41, Mini-Batches Processed:   500, Loss: 0.011686
+Epoch: 41, Mini-Batches Processed:  1000, Loss: 0.0068349
+Epoch: 41, Mini-Batches Processed:  1500, Loss: 0.010231
+Epoch: 41, Mini-Batches Processed:  2000, Loss: 0.0099936
+Epoch: 41, Mini-Batches Processed:  2500, Loss: 0.021991
+Epoch: 41, Mini-Batches Processed:  3000, Loss: 0.01235
+Epoch: 41, Mini-Batches Processed:  3500, Loss: 0.021855
+Epoch: 41, Mini-Batches Processed:  4000, Loss: 0.0097987
+Epoch: 41, Mini-Batches Processed:  4500, Loss: 0.012412
+Epoch: 41, Mini-Batches Processed:  5000, Loss: 0.016306
+Epoch: 41, Mini-Batches Processed:  5500, Loss: 0.014079
+Epoch: 41, Mini-Batches Processed:  6000, Loss: 0.014949
+Epoch: 41, Mini-Batches Processed:  6500, Loss: 0.016869
+Epoch: 41, Mini-Batches Processed:  7000, Loss: 0.016444
+Epoch: 41, Mini-Batches Processed:  7500, Loss: 0.017028
+Epoch: 41, Mini-Batches Processed:  8000, Loss: 0.01105
+Epoch: 41, Mini-Batches Processed:  8500, Loss: 0.023237
+Epoch: 41, Mini-Batches Processed:  9000, Loss: 0.016669
+Epoch: 41, Mini-Batches Processed:  9500, Loss: 0.019517
+Epoch: 41, Mini-Batches Processed: 10000, Loss: 0.01008
+Epoch: 41, Mini-Batches Processed: 10500, Loss: 0.011549
+Epoch: 41, Mini-Batches Processed: 11000, Loss: 0.01848
+Epoch: 41, Mini-Batches Processed: 11500, Loss: 0.017328
+Epoch: 41, Mini-Batches Processed: 12000, Loss: 0.011456
+Epoch: 41, Mini-Batches Processed: 12500, Loss: 0.019588
+[TIMER] Process Time so far: 3353.03 seconds
+Starting validation...
+[TRAINING] 49374 out of 50000
+[VALIDATION] 7468 out of 10000
+[TIMER] Process Time so far: 3381.08 seconds
+Beginning Epoch 42...
+Epoch: 42, Mini-Batches Processed:   500, Loss: 0.0052819
+Epoch: 42, Mini-Batches Processed:  1000, Loss: 0.012623
+Epoch: 42, Mini-Batches Processed:  1500, Loss: 0.012003
+Epoch: 42, Mini-Batches Processed:  2000, Loss: 0.014635
+Epoch: 42, Mini-Batches Processed:  2500, Loss: 0.0068769
+Epoch: 42, Mini-Batches Processed:  3000, Loss: 0.0096892
+Epoch: 42, Mini-Batches Processed:  3500, Loss: 0.0086639
+Epoch: 42, Mini-Batches Processed:  4000, Loss: 0.011765
+Epoch: 42, Mini-Batches Processed:  4500, Loss: 0.016992
+Epoch: 42, Mini-Batches Processed:  5000, Loss: 0.01196
+Epoch: 42, Mini-Batches Processed:  5500, Loss: 0.013954
+Epoch: 42, Mini-Batches Processed:  6000, Loss: 0.026852
+Epoch: 42, Mini-Batches Processed:  6500, Loss: 0.015244
+Epoch: 42, Mini-Batches Processed:  7000, Loss: 0.01202
+Epoch: 42, Mini-Batches Processed:  7500, Loss: 0.020471
+Epoch: 42, Mini-Batches Processed:  8000, Loss: 0.019308
+Epoch: 42, Mini-Batches Processed:  8500, Loss: 0.012442
+Epoch: 42, Mini-Batches Processed:  9000, Loss: 0.015373
+Epoch: 42, Mini-Batches Processed:  9500, Loss: 0.014702
+Epoch: 42, Mini-Batches Processed: 10000, Loss: 0.015526
+Epoch: 42, Mini-Batches Processed: 10500, Loss: 0.025734
+Epoch: 42, Mini-Batches Processed: 11000, Loss: 0.024746
+Epoch: 42, Mini-Batches Processed: 11500, Loss: 0.018701
+Epoch: 42, Mini-Batches Processed: 12000, Loss: 0.010591
+Epoch: 42, Mini-Batches Processed: 12500, Loss: 0.01295
+[TIMER] Process Time so far: 3444.84 seconds
+Starting validation...
+[TRAINING] 48918 out of 50000
+[VALIDATION] 7286 out of 10000
+[TIMER] Process Time so far: 3473.14 seconds
+Beginning Epoch 43...
+Epoch: 43, Mini-Batches Processed:   500, Loss: 0.014741
+Epoch: 43, Mini-Batches Processed:  1000, Loss: 0.01584
+Epoch: 43, Mini-Batches Processed:  1500, Loss: 0.015016
+Epoch: 43, Mini-Batches Processed:  2000, Loss: 0.019422
+Epoch: 43, Mini-Batches Processed:  2500, Loss: 0.013766
+Epoch: 43, Mini-Batches Processed:  3000, Loss: 0.01398
+Epoch: 43, Mini-Batches Processed:  3500, Loss: 0.013809
+Epoch: 43, Mini-Batches Processed:  4000, Loss: 0.015231
+Epoch: 43, Mini-Batches Processed:  4500, Loss: 0.017257
+Epoch: 43, Mini-Batches Processed:  5000, Loss: 0.0077931
+Epoch: 43, Mini-Batches Processed:  5500, Loss: 0.0073309
+Epoch: 43, Mini-Batches Processed:  6000, Loss: 0.012642
+Epoch: 43, Mini-Batches Processed:  6500, Loss: 0.013297
+Epoch: 43, Mini-Batches Processed:  7000, Loss: 0.011974
+Epoch: 43, Mini-Batches Processed:  7500, Loss: 0.014433
+Epoch: 43, Mini-Batches Processed:  8000, Loss: 0.013386
+Epoch: 43, Mini-Batches Processed:  8500, Loss: 0.008405
+Epoch: 43, Mini-Batches Processed:  9000, Loss: 0.010988
+Epoch: 43, Mini-Batches Processed:  9500, Loss: 0.013726
+Epoch: 43, Mini-Batches Processed: 10000, Loss: 0.02561
+Epoch: 43, Mini-Batches Processed: 10500, Loss: 0.010852
+Epoch: 43, Mini-Batches Processed: 11000, Loss: 0.013283
+Epoch: 43, Mini-Batches Processed: 11500, Loss: 0.015263
+Epoch: 43, Mini-Batches Processed: 12000, Loss: 0.018449
+Epoch: 43, Mini-Batches Processed: 12500, Loss: 0.014336
+[TIMER] Process Time so far: 3536.28 seconds
+Starting validation...
+[TRAINING] 49304 out of 50000
+[VALIDATION] 7375 out of 10000
+[TIMER] Process Time so far: 3564.02 seconds
+Beginning Epoch 44...
+Epoch: 44, Mini-Batches Processed:   500, Loss: 0.0088558
+Epoch: 44, Mini-Batches Processed:  1000, Loss: 0.0090634
+Epoch: 44, Mini-Batches Processed:  1500, Loss: 0.016154
+Epoch: 44, Mini-Batches Processed:  2000, Loss: 0.010755
+Epoch: 44, Mini-Batches Processed:  2500, Loss: 0.016339
+Epoch: 44, Mini-Batches Processed:  3000, Loss: 0.011653
+Epoch: 44, Mini-Batches Processed:  3500, Loss: 0.024535
+Epoch: 44, Mini-Batches Processed:  4000, Loss: 0.010006
+Epoch: 44, Mini-Batches Processed:  4500, Loss: 0.020329
+Epoch: 44, Mini-Batches Processed:  5000, Loss: 0.010684
+Epoch: 44, Mini-Batches Processed:  5500, Loss: 0.022409
+Epoch: 44, Mini-Batches Processed:  6000, Loss: 0.015151
+Epoch: 44, Mini-Batches Processed:  6500, Loss: 0.014966
+Epoch: 44, Mini-Batches Processed:  7000, Loss: 0.015362
+Epoch: 44, Mini-Batches Processed:  7500, Loss: 0.013919
+Epoch: 44, Mini-Batches Processed:  8000, Loss: 0.013851
+Epoch: 44, Mini-Batches Processed:  8500, Loss: 0.017943
+Epoch: 44, Mini-Batches Processed:  9000, Loss: 0.019081
+Epoch: 44, Mini-Batches Processed:  9500, Loss: 0.024652
+Epoch: 44, Mini-Batches Processed: 10000, Loss: 0.024482
+Epoch: 44, Mini-Batches Processed: 10500, Loss: 0.016624
+Epoch: 44, Mini-Batches Processed: 11000, Loss: 0.012714
+Epoch: 44, Mini-Batches Processed: 11500, Loss: 0.016031
+Epoch: 44, Mini-Batches Processed: 12000, Loss: 0.0092336
+Epoch: 44, Mini-Batches Processed: 12500, Loss: 0.018152
+[TIMER] Process Time so far: 3626.22 seconds
+Starting validation...
+[TRAINING] 48969 out of 50000
+[VALIDATION] 7294 out of 10000
+[TIMER] Process Time so far: 3654.92 seconds
+Beginning Epoch 45...
+Epoch: 45, Mini-Batches Processed:   500, Loss: 0.0073407
+Epoch: 45, Mini-Batches Processed:  1000, Loss: 0.009065
+Epoch: 45, Mini-Batches Processed:  1500, Loss: 0.0087852
+Epoch: 45, Mini-Batches Processed:  2000, Loss: 0.013026
+Epoch: 45, Mini-Batches Processed:  2500, Loss: 0.0095282
+Epoch: 45, Mini-Batches Processed:  3000, Loss: 0.0092095
+Epoch: 45, Mini-Batches Processed:  3500, Loss: 0.018656
+Epoch: 45, Mini-Batches Processed:  4000, Loss: 0.010221
+Epoch: 45, Mini-Batches Processed:  4500, Loss: 0.01248
+Epoch: 45, Mini-Batches Processed:  5000, Loss: 0.011323
+Epoch: 45, Mini-Batches Processed:  5500, Loss: 0.014083
+Epoch: 45, Mini-Batches Processed:  6000, Loss: 0.0088027
+Epoch: 45, Mini-Batches Processed:  6500, Loss: 0.0091701
+Epoch: 45, Mini-Batches Processed:  7000, Loss: 0.014758
+Epoch: 45, Mini-Batches Processed:  7500, Loss: 0.018142
+Epoch: 45, Mini-Batches Processed:  8000, Loss: 0.014231
+Epoch: 45, Mini-Batches Processed:  8500, Loss: 0.017452
+Epoch: 45, Mini-Batches Processed:  9000, Loss: 0.014585
+Epoch: 45, Mini-Batches Processed:  9500, Loss: 0.014831
+Epoch: 45, Mini-Batches Processed: 10000, Loss: 0.017209
+Epoch: 45, Mini-Batches Processed: 10500, Loss: 0.01749
+Epoch: 45, Mini-Batches Processed: 11000, Loss: 0.015799
+Epoch: 45, Mini-Batches Processed: 11500, Loss: 0.020473
+Epoch: 45, Mini-Batches Processed: 12000, Loss: 0.015067
+Epoch: 45, Mini-Batches Processed: 12500, Loss: 0.011286
+[TIMER] Process Time so far: 3720.08 seconds
+Starting validation...
+[TRAINING] 49254 out of 50000
+[VALIDATION] 7284 out of 10000
+[TIMER] Process Time so far: 3748.62 seconds
+Beginning Epoch 46...
+Epoch: 46, Mini-Batches Processed:   500, Loss: 0.0090451
+Epoch: 46, Mini-Batches Processed:  1000, Loss: 0.011094
+Epoch: 46, Mini-Batches Processed:  1500, Loss: 0.011239
+Epoch: 46, Mini-Batches Processed:  2000, Loss: 0.011724
+Epoch: 46, Mini-Batches Processed:  2500, Loss: 0.012989
+Epoch: 46, Mini-Batches Processed:  3000, Loss: 0.0090581
+Epoch: 46, Mini-Batches Processed:  3500, Loss: 0.022177
+Epoch: 46, Mini-Batches Processed:  4000, Loss: 0.019051
+Epoch: 46, Mini-Batches Processed:  4500, Loss: 0.016204
+Epoch: 46, Mini-Batches Processed:  5000, Loss: 0.016309
+Epoch: 46, Mini-Batches Processed:  5500, Loss: 0.016264
+Epoch: 46, Mini-Batches Processed:  6000, Loss: 0.013719
+Epoch: 46, Mini-Batches Processed:  6500, Loss: 0.010883
+Epoch: 46, Mini-Batches Processed:  7000, Loss: 0.015154
+Epoch: 46, Mini-Batches Processed:  7500, Loss: 0.01501
+Epoch: 46, Mini-Batches Processed:  8000, Loss: 0.010207
+Epoch: 46, Mini-Batches Processed:  8500, Loss: 0.015247
+Epoch: 46, Mini-Batches Processed:  9000, Loss: 0.013543
+Epoch: 46, Mini-Batches Processed:  9500, Loss: 0.0093707
+Epoch: 46, Mini-Batches Processed: 10000, Loss: 0.010671
+Epoch: 46, Mini-Batches Processed: 10500, Loss: 0.023489
+Epoch: 46, Mini-Batches Processed: 11000, Loss: 0.0143
+Epoch: 46, Mini-Batches Processed: 11500, Loss: 0.014395
+Epoch: 46, Mini-Batches Processed: 12000, Loss: 0.020624
+Epoch: 46, Mini-Batches Processed: 12500, Loss: 0.012453
+[TIMER] Process Time so far: 3812.08 seconds
+Starting validation...
+[TRAINING] 49399 out of 50000
+[VALIDATION] 7407 out of 10000
+[TIMER] Process Time so far: 3841.11 seconds
+Beginning Epoch 47...
+Epoch: 47, Mini-Batches Processed:   500, Loss: 0.010938
+Epoch: 47, Mini-Batches Processed:  1000, Loss: 0.014593
+Epoch: 47, Mini-Batches Processed:  1500, Loss: 0.011076
+Epoch: 47, Mini-Batches Processed:  2000, Loss: 0.011955
+Epoch: 47, Mini-Batches Processed:  2500, Loss: 0.015901
+Epoch: 47, Mini-Batches Processed:  3000, Loss: 0.01647
+Epoch: 47, Mini-Batches Processed:  3500, Loss: 0.015794
+Epoch: 47, Mini-Batches Processed:  4000, Loss: 0.019094
+Epoch: 47, Mini-Batches Processed:  4500, Loss: 0.010692
+Epoch: 47, Mini-Batches Processed:  5000, Loss: 0.013328
+Epoch: 47, Mini-Batches Processed:  5500, Loss: 0.01308
+Epoch: 47, Mini-Batches Processed:  6000, Loss: 0.016843
+Epoch: 47, Mini-Batches Processed:  6500, Loss: 0.01388
+Epoch: 47, Mini-Batches Processed:  7000, Loss: 0.012228
+Epoch: 47, Mini-Batches Processed:  7500, Loss: 0.024208
+Epoch: 47, Mini-Batches Processed:  8000, Loss: 0.016076
+Epoch: 47, Mini-Batches Processed:  8500, Loss: 0.0074898
+Epoch: 47, Mini-Batches Processed:  9000, Loss: 0.011232
+Epoch: 47, Mini-Batches Processed:  9500, Loss: 0.017451
+Epoch: 47, Mini-Batches Processed: 10000, Loss: 0.011134
+Epoch: 47, Mini-Batches Processed: 10500, Loss: 0.0082069
+Epoch: 47, Mini-Batches Processed: 11000, Loss: 0.01238
+Epoch: 47, Mini-Batches Processed: 11500, Loss: 0.017999
+Epoch: 47, Mini-Batches Processed: 12000, Loss: 0.01315
+Epoch: 47, Mini-Batches Processed: 12500, Loss: 0.024266
+[TIMER] Process Time so far: 3905.48 seconds
+Starting validation...
+[TRAINING] 49301 out of 50000
+[VALIDATION] 7430 out of 10000
+[TIMER] Process Time so far: 3933.48 seconds
+Beginning Epoch 48...
+Epoch: 48, Mini-Batches Processed:   500, Loss: 0.013733
+Epoch: 48, Mini-Batches Processed:  1000, Loss: 0.017154
+Epoch: 48, Mini-Batches Processed:  1500, Loss: 0.010991
+Epoch: 48, Mini-Batches Processed:  2000, Loss: 0.013468
+Epoch: 48, Mini-Batches Processed:  2500, Loss: 0.017931
+Epoch: 48, Mini-Batches Processed:  3000, Loss: 0.010903
+Epoch: 48, Mini-Batches Processed:  3500, Loss: 0.024369
+Epoch: 48, Mini-Batches Processed:  4000, Loss: 0.017993
+Epoch: 48, Mini-Batches Processed:  4500, Loss: 0.017062
+Epoch: 48, Mini-Batches Processed:  5000, Loss: 0.01015
+Epoch: 48, Mini-Batches Processed:  5500, Loss: 0.021263
+Epoch: 48, Mini-Batches Processed:  6000, Loss: 0.014402
+Epoch: 48, Mini-Batches Processed:  6500, Loss: 0.014181
+Epoch: 48, Mini-Batches Processed:  7000, Loss: 0.014921
+Epoch: 48, Mini-Batches Processed:  7500, Loss: 0.0071331
+Epoch: 48, Mini-Batches Processed:  8000, Loss: 0.020293
+Epoch: 48, Mini-Batches Processed:  8500, Loss: 0.019858
+Epoch: 48, Mini-Batches Processed:  9000, Loss: 0.019607
+Epoch: 48, Mini-Batches Processed:  9500, Loss: 0.022479
+Epoch: 48, Mini-Batches Processed: 10000, Loss: 0.015837
+Epoch: 48, Mini-Batches Processed: 10500, Loss: 0.013822
+Epoch: 48, Mini-Batches Processed: 11000, Loss: 0.016889
+Epoch: 48, Mini-Batches Processed: 11500, Loss: 0.01579
+Epoch: 48, Mini-Batches Processed: 12000, Loss: 0.012166
+Epoch: 48, Mini-Batches Processed: 12500, Loss: 0.016715
+[TIMER] Process Time so far: 3998.0 seconds
+Starting validation...
+[TRAINING] 49214 out of 50000
+[VALIDATION] 7349 out of 10000
+[TIMER] Process Time so far: 4026.36 seconds
+Beginning Epoch 49...
+Epoch: 49, Mini-Batches Processed:   500, Loss: 0.018347
+Epoch: 49, Mini-Batches Processed:  1000, Loss: 0.015181
+Epoch: 49, Mini-Batches Processed:  1500, Loss: 0.0082801
+Epoch: 49, Mini-Batches Processed:  2000, Loss: 0.0069796
+Epoch: 49, Mini-Batches Processed:  2500, Loss: 0.016651
+Epoch: 49, Mini-Batches Processed:  3000, Loss: 0.01242
+Epoch: 49, Mini-Batches Processed:  3500, Loss: 0.015871
+Epoch: 49, Mini-Batches Processed:  4000, Loss: 0.017425
+Epoch: 49, Mini-Batches Processed:  4500, Loss: 0.0076306
+Epoch: 49, Mini-Batches Processed:  5000, Loss: 0.016999
+Epoch: 49, Mini-Batches Processed:  5500, Loss: 0.01107
+Epoch: 49, Mini-Batches Processed:  6000, Loss: 0.020485
+Epoch: 49, Mini-Batches Processed:  6500, Loss: 0.019153
+Epoch: 49, Mini-Batches Processed:  7000, Loss: 0.011218
+Epoch: 49, Mini-Batches Processed:  7500, Loss: 0.021386
+Epoch: 49, Mini-Batches Processed:  8000, Loss: 0.018228
+Epoch: 49, Mini-Batches Processed:  8500, Loss: 0.01581
+Epoch: 49, Mini-Batches Processed:  9000, Loss: 0.01667
+Epoch: 49, Mini-Batches Processed:  9500, Loss: 0.021046
+Epoch: 49, Mini-Batches Processed: 10000, Loss: 0.013817
+Epoch: 49, Mini-Batches Processed: 10500, Loss: 0.014149
+Epoch: 49, Mini-Batches Processed: 11000, Loss: 0.014698
+Epoch: 49, Mini-Batches Processed: 11500, Loss: 0.017427
+Epoch: 49, Mini-Batches Processed: 12000, Loss: 0.016589
+Epoch: 49, Mini-Batches Processed: 12500, Loss: 0.012926
+[TIMER] Process Time so far: 4089.77 seconds
+Starting validation...
+[TRAINING] 49324 out of 50000
+[VALIDATION] 7359 out of 10000
+[TIMER] Process Time so far: 4118.45 seconds
+Beginning Epoch 50...
+Epoch: 50, Mini-Batches Processed:   500, Loss: 0.0074261
+Epoch: 50, Mini-Batches Processed:  1000, Loss: 0.010426
+Epoch: 50, Mini-Batches Processed:  1500, Loss: 0.015733
+Epoch: 50, Mini-Batches Processed:  2000, Loss: 0.020813
+Epoch: 50, Mini-Batches Processed:  2500, Loss: 0.016184
+Epoch: 50, Mini-Batches Processed:  3000, Loss: 0.014093
+Epoch: 50, Mini-Batches Processed:  3500, Loss: 0.015212
+Epoch: 50, Mini-Batches Processed:  4000, Loss: 0.0097124
+Epoch: 50, Mini-Batches Processed:  4500, Loss: 0.0079899
+Epoch: 50, Mini-Batches Processed:  5000, Loss: 0.0078306
+Epoch: 50, Mini-Batches Processed:  5500, Loss: 0.013634
+Epoch: 50, Mini-Batches Processed:  6000, Loss: 0.01708
+Epoch: 50, Mini-Batches Processed:  6500, Loss: 0.010607
+Epoch: 50, Mini-Batches Processed:  7000, Loss: 0.014978
+Epoch: 50, Mini-Batches Processed:  7500, Loss: 0.0097762
+Epoch: 50, Mini-Batches Processed:  8000, Loss: 0.0089381
+Epoch: 50, Mini-Batches Processed:  8500, Loss: 0.0074267
+Epoch: 50, Mini-Batches Processed:  9000, Loss: 0.018244
+Epoch: 50, Mini-Batches Processed:  9500, Loss: 0.026145
+Epoch: 50, Mini-Batches Processed: 10000, Loss: 0.018516
+Epoch: 50, Mini-Batches Processed: 10500, Loss: 0.010809
+Epoch: 50, Mini-Batches Processed: 11000, Loss: 0.011999
+Epoch: 50, Mini-Batches Processed: 11500, Loss: 0.012277
+Epoch: 50, Mini-Batches Processed: 12000, Loss: 0.015515
+Epoch: 50, Mini-Batches Processed: 12500, Loss: 0.016881
+[TIMER] Process Time so far: 4183.52 seconds
+Starting validation...
+[TRAINING] 49048 out of 50000
+[VALIDATION] 7259 out of 10000
+[INFO] Finished training.
+Accuracy of the network on the 10000 test items: 72.45%
+Accuracy of plane: 84.1%
+Accuracy of car: 78.2%
+Accuracy of bird: 66.4%
+Accuracy of cat: 65.3%
+Accuracy of deer: 69.5%
+Accuracy of dog: 54.9%
+Accuracy of frog: 78.4%
+Accuracy of horse: 74.9%
+Accuracy of ship: 78.1%
+Accuracy of truck: 74.7%
+[TIMER] Total Process Time: 4218.125 seconds
