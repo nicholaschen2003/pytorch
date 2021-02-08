@@ -15,7 +15,7 @@ realized it hadn't overfitted yet, so then ran with 50 epochs
 then ran it with a dumb number of features (3->60->920) (linear layers: 23000->10000->4800->2400->800->400->120->84->10)
 ~77.47% accuracy
 
-then went to a more reasonable x5 multiplier for features (5->15->75->375) and added a third layer
+then went to a more reasonable x5 multiplier for features (3->15->75->375) and added a third layer
 conv3 = (75, 375, 3)
 pool3 = (3, 3)
 ~71-72% accuracy
